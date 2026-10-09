@@ -1,5 +1,7 @@
 # PlacidWay Care Navigator
 
+Live demo: https://placidway-care-navigator.onrender.com · Admin: https://placidway-care-navigator.onrender.com/admin
+
 An assessment chatbot grounded in the seven PlacidWay pages supplied in the assessment. It provides exact source excerpts, package-aware price answers, clear refusals, a source inspector, a protected operations dashboard, and repeatable evaluations.
 
 **Deployment:** one Free Render Python web service, with Supabase as the persistent backend. This is an assessment prototype, not an official PlacidWay service. Free hosting may sleep when idle; seven-day uninterrupted uptime is not guaranteed.
@@ -117,9 +119,9 @@ See `docs/source-review.md` for the page-by-page audit, `docs/assessment-extract
 
 ## Privacy and operations
 
-Question/answer turns are held only in process memory, bounded to eight recent turns and a 24-hour idle expiry. New conversation deletes that context and rotates the chat cookie. A server restart clears all active conversation memory. No conversation transcripts are persisted or synchronized to Supabase. Topic summaries, random session identifiers and outcomes are retained for up to 30 days; the admin now reports popular/unanswered topics rather than storing individual questions. Legacy saved conversation context is removed on startup and old question analytics are converted to topic summaries. Basic email, phone and key redaction runs before temporary context storage and provider transmission; it is not guaranteed anonymization. Do not enter medical records. This app does not collect names, emails or quote requests. Quote and booking questions link to the official PlacidWay form. Admin exports and manual cloud-sync controls are removed; unanswered topics remain visible.
+Question/answer turns are held only in process memory, bounded to eight recent turns and a 24-hour idle expiry. New conversation deletes that context and rotates the chat cookie. A server restart clears all active conversation memory. No conversation transcripts are persisted or synchronized to Supabase. Topic summaries, random session identifiers and outcomes are retained for up to 30 days; the admin now reports popular/unanswered topics rather than storing individual questions. Basic email, phone and key redaction runs before temporary context storage and provider transmission; it is not guaranteed anonymization. Do not enter medical records. This app does not collect names, emails or quote requests. Quote and booking questions link to the official PlacidWay form. Admin exports and manual cloud-sync controls are removed; unanswered topics remain visible.
 
-Cleanup runs while the app is running. Before a public launch, review privacy and retention requirements, add real admin identity/MFA and shared abuse controls, configure HTTPS and durable storage, and test backups and uptime monitoring. No such deployment is performed by this build.
+Cleanup runs while the service is awake. Deployment uses HTTPS, secure cookies, Supabase persistence and atomic shared rate limits. Staff identity/MFA, tested backups and uptime monitoring remain further work. Free hosting may sleep when idle.
 
 Health: `GET /api/health`. Refresh: admin button or `python -m app.ingestion`. Error logs contain codes, not raw provider responses or credentials. A failed source fetch keeps the last successful snapshot. Refresh history stores added/removed lines and old/new price-bearing lines.
 
@@ -133,6 +135,9 @@ Latest formatting verification: **24/24 focused tests passed** and **14/14 targe
 
 Short-follow-up regression: the exact Anal-package → “Any idea about price?” sequence passed against the running HTTP server with cookies, as did reset isolation. Seven short cost phrasings were tested for each of the three package identities (21 combinations). New named treatments override current package context; ambiguous questions with active context are sent to the contextual router rather than immediately clarified. All 26 focused tests passed. Actual HTTP answers are saved in `reports/short-followup-regression.json`.
 
-Supabase integration verification (2026-10-09): **30/30 local tests passed**, including pre-connection backfill, no transcript uploads, failure/retry, and per-project snapshot tracking. Live verification also passed: all three tables deny public reads, public writes are denied, the running server and protected admin sync report success. See `reports/supabase-live-verification.json` and `reports/supabase-integration.md`.
+Deployment verification (2026-10-09): **31/31 infrastructure and security tests passed** after removing SQLite. Live Supabase startup/snapshot read and write, dashboard aggregation and concurrent atomic limits passed (3 accepted out of 8 attempts with a limit of 3). Live HTTPS tests passed for source/PNG loading, context, reset isolation, wrong prices, recovery unknowns, booking refusal, medical/off-topic refusals, Spanish responses, signed secure cookies, protected admin login/dashboard/sign-out and rejected foreign origins. See `reports/deployment-verification.json` for the actual deployed checks. Earlier Supabase/outbox reports describe the prior build and are historical; there is no pre-connection local backfill or durable local outbox in this deployment.
 
 Admin simplification (2026-10-09): only Refresh seven sources and Sign out remain in the toolbar. Lead capture, contact storage, exports and the manual-sync API were removed. Automatic background syncing continues. The empty cloud/local lead tables were removed. Earlier reports describing the lead feature are historical and superseded by this change.
+
+
+Latest hosted refresh: **warning, 0 changed pages**. The host could not read the crawling rules; all seven last-successful source contents were retained and the warning snapshot persisted to Supabase. The app remains usable from reviewed cached evidence, but this is not a successful live recrawl. See the deployment report for the actual status.

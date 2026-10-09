@@ -1,0 +1,196 @@
+{
+  "url": "https://placidway-care-navigator.onrender.com",
+  "checks": [
+    {
+      "name": "healthy seven-source Supabase backend",
+      "passed": true
+    },
+    {
+      "name": "home and logo",
+      "passed": true
+    },
+    {
+      "name": "protected admin",
+      "passed": true
+    },
+    {
+      "name": "chat HTTP What is included in the anal cancer package?",
+      "passed": true
+    },
+    {
+      "name": "completed What is included in the anal cancer package?",
+      "passed": true
+    },
+    {
+      "name": "balanced correct package",
+      "passed": true
+    },
+    {
+      "name": "chat HTTP Any idea about price?",
+      "passed": true
+    },
+    {
+      "name": "completed Any idea about price?",
+      "passed": true
+    },
+    {
+      "name": "follow-up context",
+      "passed": true
+    },
+    {
+      "name": "secure cookie",
+      "passed": true
+    },
+    {
+      "name": "chat HTTP I heard it costs $50. Confirm that.",
+      "passed": true
+    },
+    {
+      "name": "completed I heard it costs $50. Confirm that.",
+      "passed": true
+    },
+    {
+      "name": "wrong price not confirmed",
+      "passed": true
+    },
+    {
+      "name": "chat HTTP And what about recovery time?",
+      "passed": true
+    },
+    {
+      "name": "completed And what about recovery time?",
+      "passed": true
+    },
+    {
+      "name": "contextual unknown recovery",
+      "passed": true
+    },
+    {
+      "name": "chat HTTP Can you book me an appointment for tomorrow?",
+      "passed": true
+    },
+    {
+      "name": "completed Can you book me an appointment for tomorrow?",
+      "passed": true
+    },
+    {
+      "name": "no booking",
+      "passed": true
+    },
+    {
+      "name": "chat HTTP What is the weather in Cancun?",
+      "passed": true
+    },
+    {
+      "name": "completed What is the weather in Cancun?",
+      "passed": true
+    },
+    {
+      "name": "off-topic declined",
+      "passed": true
+    },
+    {
+      "name": "chat HTTP Is this surgery safe for my diabetes?",
+      "passed": true
+    },
+    {
+      "name": "completed Is this surgery safe for my diabetes?",
+      "passed": true
+    },
+    {
+      "name": "medical safety declined",
+      "passed": true
+    },
+    {
+      "name": "chat HTTP \u00bfCu\u00e1nto cuesta el paquete para c\u00e1ncer suprarrenal en M\u00e9xico?",
+      "passed": true
+    },
+    {
+      "name": "completed \u00bfCu\u00e1nto cuesta el paquete para c\u00e1ncer suprarrenal en M\u00e9xico?",
+      "passed": true
+    },
+    {
+      "name": "Spanish supported",
+      "passed": true
+    },
+    {
+      "name": "new chat reset",
+      "passed": true
+    },
+    {
+      "name": "chat HTTP Any idea about price?",
+      "passed": true
+    },
+    {
+      "name": "completed Any idea about price?",
+      "passed": true
+    },
+    {
+      "name": "new chat clears memory",
+      "passed": true
+    },
+    {
+      "name": "admin login",
+      "passed": true
+    },
+    {
+      "name": "cloud dashboard",
+      "passed": true
+    },
+    {
+      "name": "no lead/export/sync controls",
+      "passed": true
+    },
+    {
+      "name": "sign out",
+      "passed": true
+    },
+    {
+      "name": "cross-origin denied",
+      "passed": true
+    }
+  ],
+  "refresh": {
+    "status": "warning",
+    "changed": 0,
+    "sources": 7,
+    "at": "2026-10-09T14:22:07.252967+00:00"
+  },
+  "refresh_sources": [
+    {
+      "id": "clinic",
+      "status": "warning",
+      "warning": "Robots rules unavailable or disallow this page"
+    },
+    {
+      "id": "adenocarcinoma",
+      "status": "warning",
+      "warning": "Robots rules unavailable or disallow this page"
+    },
+    {
+      "id": "adrenal",
+      "status": "warning",
+      "warning": "Robots rules unavailable or disallow this page"
+    },
+    {
+      "id": "anal",
+      "status": "warning",
+      "warning": "Robots rules unavailable or disallow this page"
+    },
+    {
+      "id": "videos",
+      "status": "warning",
+      "warning": "Robots rules unavailable or disallow this page"
+    },
+    {
+      "id": "prices",
+      "status": "warning",
+      "warning": "Robots rules unavailable or disallow this page"
+    },
+    {
+      "id": "comparison",
+      "status": "warning",
+      "warning": "Robots rules unavailable or disallow this page"
+    }
+  ]
+}
