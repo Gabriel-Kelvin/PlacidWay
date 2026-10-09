@@ -1,0 +1,2842 @@
+{
+  "mode": "live",
+  "run_at": "2026-10-09T11:07:19.586209+00:00",
+  "passed": 14,
+  "total": 14,
+  "results": [
+    {
+      "id": 1,
+      "type": "Required cost",
+      "question": "How much does the adrenal cancer package cost in Mexico?",
+      "passed": true,
+      "checks": {
+        "expected_intent": true,
+        "citations_valid": true,
+        "contains 18,995": true,
+        "contains 30,000": true,
+        "contains USD": true,
+        "contains 3 Weeks": true,
+        "correct_source": true
+      },
+      "answer": {
+        "text": "According to the Adrenal package page in Tijuana, Mexico: Listed in USD; package price starting from.\nOut-Patient Program | 3 Weeks | $18,995\nIn-Patient Program | 3 Weeks | $30,000\nOutpatient includes: Two health-focused meals provided daily during treatment hours.\nInpatient includes: Private accommodations and three nutritious meals daily (Monday through Sunday).\nFollow-up: One post-discharge consultation with an ITC doctor after 3 months.\nOptional procedures and excluded services cost extra; request a personalized quote.",
+        "english_text": null,
+        "language": "en",
+        "intent": "cost",
+        "outcome": "answered",
+        "entity": "adrenal",
+        "citations": [
+          {
+            "id": "adrenal:L25",
+            "url": "https://www.placidway.com/package/7902/Alternative-Adrenal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Adrenal package",
+            "line": 25,
+            "quote": "Out-Patient Program | 3 Weeks | $18,995",
+            "section": "Cost of Adrenal Cancer Treatment in Tijuana, Mexico",
+            "role": "evidence",
+            "snapshot": "1771c8992de9",
+            "updated_at": "2026-10-09T04:25:51.203023+00:00"
+          },
+          {
+            "id": "adrenal:L26",
+            "url": "https://www.placidway.com/package/7902/Alternative-Adrenal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Adrenal package",
+            "line": 26,
+            "quote": "In-Patient Program | 3 Weeks | $30,000",
+            "section": "Cost of Adrenal Cancer Treatment in Tijuana, Mexico",
+            "role": "evidence",
+            "snapshot": "1771c8992de9",
+            "updated_at": "2026-10-09T04:25:51.203023+00:00"
+          },
+          {
+            "id": "adrenal:L37",
+            "url": "https://www.placidway.com/package/7902/Alternative-Adrenal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Adrenal package",
+            "line": 37,
+            "quote": "Two health-focused meals provided daily during treatment hours.",
+            "section": "Included in the Out-Patient Program ($18,995 USD)",
+            "role": "evidence",
+            "snapshot": "1771c8992de9",
+            "updated_at": "2026-10-09T04:25:51.203023+00:00"
+          },
+          {
+            "id": "adrenal:L47",
+            "url": "https://www.placidway.com/package/7902/Alternative-Adrenal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Adrenal package",
+            "line": 47,
+            "quote": "Private accommodations and three nutritious meals daily (Monday through Sunday).",
+            "section": "Included in the In-Patient Program ($30,000 USD)",
+            "role": "evidence",
+            "snapshot": "1771c8992de9",
+            "updated_at": "2026-10-09T04:25:51.203023+00:00"
+          },
+          {
+            "id": "adrenal:L41",
+            "url": "https://www.placidway.com/package/7902/Alternative-Adrenal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Adrenal package",
+            "line": 41,
+            "quote": "One post-discharge consultation with an ITC doctor after 3 months.",
+            "section": "Included in the Out-Patient Program ($18,995 USD)",
+            "role": "evidence",
+            "snapshot": "1771c8992de9",
+            "updated_at": "2026-10-09T04:25:51.203023+00:00"
+          },
+          {
+            "id": "adrenal:L2",
+            "url": "https://www.placidway.com/package/7902/Alternative-Adrenal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Adrenal package",
+            "line": 2,
+            "quote": "Price starting from",
+            "section": "Alternative Adrenal Cancer Treatment Package in Tijuana, Mexico by ITC",
+            "role": "evidence",
+            "snapshot": "1771c8992de9",
+            "updated_at": "2026-10-09T04:25:51.203023+00:00"
+          },
+          {
+            "id": "adrenal:L24",
+            "url": "https://www.placidway.com/package/7902/Alternative-Adrenal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Adrenal package",
+            "line": 24,
+            "quote": "Program Type | Duration | Total Cost (USD)",
+            "section": "Cost of Adrenal Cancer Treatment in Tijuana, Mexico",
+            "role": "evidence",
+            "snapshot": "1771c8992de9",
+            "updated_at": "2026-10-09T04:25:51.203023+00:00"
+          }
+        ],
+        "disclaimer": "This is medical travel information, not medical advice. Consult a licensed doctor before making treatment decisions.",
+        "followups": [
+          "What is included in the adrenal outpatient package?",
+          "How much is the adrenal inpatient package?",
+          "What follow-up care is listed for adrenal?"
+        ],
+        "quote_url": "https://www.placidway.com/request-info",
+        "offer_quote": false,
+        "provider": "rules",
+        "updated_at": "2026-10-09T04:49:50.938126+00:00",
+        "trace": {
+          "route": "cost",
+          "entity": "adrenal",
+          "validation": "Exact quotes and price tokens checked",
+          "retrieved": [],
+          "source_count": 7
+        },
+        "warnings": []
+      }
+    },
+    {
+      "id": 2,
+      "type": "Required comparison",
+      "question": "Is ozone therapy cheaper in Turkey or Mexico?",
+      "passed": true,
+      "checks": {
+        "expected_intent": true,
+        "citations_valid": true,
+        "contains 110": true,
+        "contains 1000": true,
+        "contains Turkey": true,
+        "contains Mexico": true,
+        "correct_source": true
+      },
+      "answer": {
+        "text": "Fizikon Medical Center Konya, Turkey | $110 Modified date Jul 31, 2023 | Ozone Therapy, Alternative Medicine | ★★★★★ 5.0 (4) |\nStem Health Guadalajara Zapopan , Mexico | $1000 Modified date Mar 28, 2025 | Ozone Therapy, Alternative Medicine | ★★★★★ 5.0 (1) |\nCurrency: USD. Listed prices are estimates; package scope varies. Request a personalized quote.",
+        "english_text": null,
+        "language": "en",
+        "intent": "comparison",
+        "outcome": "answered",
+        "entity": "none",
+        "citations": [
+          {
+            "id": "comparison:L36",
+            "url": "https://www.placidway.com/search-medical-pricings/Alternative-Medicine/All/1",
+            "title": "International price comparison",
+            "line": 36,
+            "quote": "Fizikon Medical Center Konya, Turkey | $110 Modified date Jul 31, 2023 | Ozone Therapy, Alternative Medicine | ★★★★★ 5.0 (4) |",
+            "section": "How Much Does a Alternative Medicine Cost Abroad?",
+            "role": "evidence",
+            "snapshot": "40a9cdbc8ec0",
+            "updated_at": "2026-10-09T04:25:51.770887+00:00"
+          },
+          {
+            "id": "comparison:L37",
+            "url": "https://www.placidway.com/search-medical-pricings/Alternative-Medicine/All/1",
+            "title": "International price comparison",
+            "line": 37,
+            "quote": "Stem Health Guadalajara Zapopan , Mexico | $1000 Modified date Mar 28, 2025 | Ozone Therapy, Alternative Medicine | ★★★★★ 5.0 (1) |",
+            "section": "How Much Does a Alternative Medicine Cost Abroad?",
+            "role": "evidence",
+            "snapshot": "40a9cdbc8ec0",
+            "updated_at": "2026-10-09T04:25:51.770887+00:00"
+          },
+          {
+            "id": "comparison:L8",
+            "url": "https://www.placidway.com/search-medical-pricings/Alternative-Medicine/All/1",
+            "title": "International price comparison",
+            "line": 8,
+            "quote": "Average Price (USD)",
+            "section": "Alternative Medicine Cost Abroad – Compare Transparent Prices",
+            "role": "currency",
+            "snapshot": "40a9cdbc8ec0",
+            "updated_at": "2026-10-09T04:25:51.770887+00:00"
+          }
+        ],
+        "disclaimer": "This is medical travel information, not medical advice. Consult a licensed doctor before making treatment decisions.",
+        "followups": [
+          "Where is ITC located?",
+          "What does the adrenal package include?",
+          "Which videos are listed?"
+        ],
+        "quote_url": "https://www.placidway.com/request-info",
+        "offer_quote": false,
+        "provider": "groq",
+        "updated_at": "2026-10-09T04:49:50.938126+00:00",
+        "trace": {
+          "route": "comparison",
+          "entity": "none",
+          "validation": "Exact quotes and price tokens checked",
+          "retrieved": [
+            {
+              "id": "comparison:L35",
+              "url": "https://www.placidway.com/search-medical-pricings/Alternative-Medicine/All/1",
+              "title": "International price comparison",
+              "line": 35,
+              "quote": "Polyclinic Markov Murter, Croatia | $70 Modified date Mar 28, 2023 | Physiotherapy/Massage, Alternative Medicine | ★★★★★ 5.0 (19) |",
+              "section": "How Much Does a Alternative Medicine Cost Abroad?",
+              "role": "retrieved",
+              "snapshot": "40a9cdbc8ec0",
+              "updated_at": "2026-10-09T04:25:51.770887+00:00"
+            },
+            {
+              "id": "comparison:L36",
+              "url": "https://www.placidway.com/search-medical-pricings/Alternative-Medicine/All/1",
+              "title": "International price comparison",
+              "line": 36,
+              "quote": "Fizikon Medical Center Konya, Turkey | $110 Modified date Jul 31, 2023 | Ozone Therapy, Alternative Medicine | ★★★★★ 5.0 (4) |",
+              "section": "How Much Does a Alternative Medicine Cost Abroad?",
+              "role": "retrieved",
+              "snapshot": "40a9cdbc8ec0",
+              "updated_at": "2026-10-09T04:25:51.770887+00:00"
+            },
+            {
+              "id": "comparison:L37",
+              "url": "https://www.placidway.com/search-medical-pricings/Alternative-Medicine/All/1",
+              "title": "International price comparison",
+              "line": 37,
+              "quote": "Stem Health Guadalajara Zapopan , Mexico | $1000 Modified date Mar 28, 2025 | Ozone Therapy, Alternative Medicine | ★★★★★ 5.0 (1) |",
+              "section": "How Much Does a Alternative Medicine Cost Abroad?",
+              "role": "retrieved",
+              "snapshot": "40a9cdbc8ec0",
+              "updated_at": "2026-10-09T04:25:51.770887+00:00"
+            },
+            {
+              "id": "comparison:L38",
+              "url": "https://www.placidway.com/search-medical-pricings/Alternative-Medicine/All/1",
+              "title": "International price comparison",
+              "line": 38,
+              "quote": "VISANI® Stem Cells in Puebla, Mexico Mexico City, Mexico | $5500 Modified date Sep 22, 2024 | Live Cell Therapy, Alternative Medicine | ★★★★★ 5.0 (5) |",
+              "section": "How Much Does a Alternative Medicine Cost Abroad?",
+              "role": "retrieved",
+              "snapshot": "40a9cdbc8ec0",
+              "updated_at": "2026-10-09T04:25:51.770887+00:00"
+            },
+            {
+              "id": "comparison:L39",
+              "url": "https://www.placidway.com/search-medical-pricings/Alternative-Medicine/All/1",
+              "title": "International price comparison",
+              "line": 39,
+              "quote": "What Is Usually Included and Not Included in a Live Cell Therapy, Alternative Medicine Package?",
+              "section": "What Is Usually Included and Not Included in a Live Cell Therapy, Alternative Medicine Package?",
+              "role": "retrieved",
+              "snapshot": "40a9cdbc8ec0",
+              "updated_at": "2026-10-09T04:25:51.770887+00:00"
+            },
+            {
+              "id": "comparison:L18",
+              "url": "https://www.placidway.com/search-medical-pricings/Alternative-Medicine/All/1",
+              "title": "International price comparison",
+              "line": 18,
+              "quote": "Ayurvedic Panchakarma (14 Days) | $800 | $2,500 | Depends on facility luxury level",
+              "section": "How Much Does a Alternative Medicine Cost Abroad?",
+              "role": "retrieved",
+              "snapshot": "40a9cdbc8ec0",
+              "updated_at": "2026-10-09T04:25:51.770887+00:00"
+            },
+            {
+              "id": "comparison:L19",
+              "url": "https://www.placidway.com/search-medical-pricings/Alternative-Medicine/All/1",
+              "title": "International price comparison",
+              "line": 19,
+              "quote": "Ozone Therapy Package | $500 | $1,500 | Varies by number of sessions",
+              "section": "How Much Does a Alternative Medicine Cost Abroad?",
+              "role": "retrieved",
+              "snapshot": "40a9cdbc8ec0",
+              "updated_at": "2026-10-09T04:25:51.770887+00:00"
+            },
+            {
+              "id": "comparison:L20",
+              "url": "https://www.placidway.com/search-medical-pricings/Alternative-Medicine/All/1",
+              "title": "International price comparison",
+              "line": 20,
+              "quote": "Alternative Stem Cell Therapy | $3,000 | $10,000 | Depends on cell type source",
+              "section": "How Much Does a Alternative Medicine Cost Abroad?",
+              "role": "retrieved",
+              "snapshot": "40a9cdbc8ec0",
+              "updated_at": "2026-10-09T04:25:51.770887+00:00"
+            },
+            {
+              "id": "comparison:L21",
+              "url": "https://www.placidway.com/search-medical-pricings/Alternative-Medicine/All/1",
+              "title": "International price comparison",
+              "line": 21,
+              "quote": "Naturopathic Wellness Retreat | $1,200 | $4,000 | Varies by location and inclusions",
+              "section": "How Much Does a Alternative Medicine Cost Abroad?",
+              "role": "retrieved",
+              "snapshot": "40a9cdbc8ec0",
+              "updated_at": "2026-10-09T04:25:51.770887+00:00"
+            },
+            {
+              "id": "comparison:L23",
+              "url": "https://www.placidway.com/search-medical-pricings/Alternative-Medicine/All/1",
+              "title": "International price comparison",
+              "line": 23,
+              "quote": "Cost Breakdown by Component",
+              "section": "How Much Does a Alternative Medicine Cost Abroad?",
+              "role": "retrieved",
+              "snapshot": "40a9cdbc8ec0",
+              "updated_at": "2026-10-09T04:25:51.770887+00:00"
+            },
+            {
+              "id": "comparison:L24",
+              "url": "https://www.placidway.com/search-medical-pricings/Alternative-Medicine/All/1",
+              "title": "International price comparison",
+              "line": 24,
+              "quote": "Understand the total cost breakdown for alternative medicine abroad. Review individual expenses like practitioner fees, therapy sessions, facility charges, and tests.",
+              "section": "How Much Does a Alternative Medicine Cost Abroad?",
+              "role": "retrieved",
+              "snapshot": "40a9cdbc8ec0",
+              "updated_at": "2026-10-09T04:25:51.770887+00:00"
+            },
+            {
+              "id": "comparison:L25",
+              "url": "https://www.placidway.com/search-medical-pricings/Alternative-Medicine/All/1",
+              "title": "International price comparison",
+              "line": 25,
+              "quote": "Component | Low (USD) | High (USD) | Notes",
+              "section": "How Much Does a Alternative Medicine Cost Abroad?",
+              "role": "retrieved",
+              "snapshot": "40a9cdbc8ec0",
+              "updated_at": "2026-10-09T04:25:51.770887+00:00"
+            },
+            {
+              "id": "comparison:L26",
+              "url": "https://www.placidway.com/search-medical-pricings/Alternative-Medicine/All/1",
+              "title": "International price comparison",
+              "line": 26,
+              "quote": "Initial Holistic Consultation | $50 | $250 | Complexity of patient health history",
+              "section": "How Much Does a Alternative Medicine Cost Abroad?",
+              "role": "retrieved",
+              "snapshot": "40a9cdbc8ec0",
+              "updated_at": "2026-10-09T04:25:51.770887+00:00"
+            },
+            {
+              "id": "comparison:L40",
+              "url": "https://www.placidway.com/search-medical-pricings/Alternative-Medicine/All/1",
+              "title": "International price comparison",
+              "line": 40,
+              "quote": "Learn exactly what is included and excluded in alternative medicine packages abroad. Clarify scope on therapy sessions, accommodation, meals, and diagnostic tests.",
+              "section": "What Is Usually Included and Not Included in a Live Cell Therapy, Alternative Medicine Package?",
+              "role": "retrieved",
+              "snapshot": "40a9cdbc8ec0",
+              "updated_at": "2026-10-09T04:25:51.770887+00:00"
+            },
+            {
+              "id": "comparison:L67",
+              "url": "https://www.placidway.com/search-medical-pricings/Alternative-Medicine/All/1",
+              "title": "International price comparison",
+              "line": 67,
+              "quote": "Frequently Asked Questions About Live Cell Therapy, Alternative Medicine Abroad",
+              "section": "What Do Real Families Say About Live Cell Therapy, Alternative Medicine Abroad?",
+              "role": "retrieved",
+              "snapshot": "40a9cdbc8ec0",
+              "updated_at": "2026-10-09T04:25:51.770887+00:00"
+            },
+            {
+              "id": "comparison:L68",
+              "url": "https://www.placidway.com/search-medical-pricings/Alternative-Medicine/All/1",
+              "title": "International price comparison",
+              "line": 68,
+              "quote": "Find answers to common questions about alternative medicine abroad. Explore essential details regarding holistic treatments, international safety, and therapy costs.",
+              "section": "What Do Real Families Say About Live Cell Therapy, Alternative Medicine Abroad?",
+              "role": "retrieved",
+              "snapshot": "40a9cdbc8ec0",
+              "updated_at": "2026-10-09T04:25:51.770887+00:00"
+            },
+            {
+              "id": "comparison:L69",
+              "url": "https://www.placidway.com/search-medical-pricings/Alternative-Medicine/All/1",
+              "title": "International price comparison",
+              "line": 69,
+              "quote": "How much does alternative medicine cost abroad compared to domestic prices?",
+              "section": "How much does alternative medicine cost abroad compared to domestic prices?",
+              "role": "retrieved",
+              "snapshot": "40a9cdbc8ec0",
+              "updated_at": "2026-10-09T04:25:51.770887+00:00"
+            },
+            {
+              "id": "comparison:L70",
+              "url": "https://www.placidway.com/search-medical-pricings/Alternative-Medicine/All/1",
+              "title": "International price comparison",
+              "line": 70,
+              "quote": "Patients can save 40% to 70% on alternative medicine abroad. Exact prices vary by country and therapy type. Traveling for care remains highly cost-effective.",
+              "section": "How much does alternative medicine cost abroad compared to domestic prices?",
+              "role": "retrieved",
+              "snapshot": "40a9cdbc8ec0",
+              "updated_at": "2026-10-09T04:25:51.770887+00:00"
+            },
+            {
+              "id": "comparison:L71",
+              "url": "https://www.placidway.com/search-medical-pricings/Alternative-Medicine/All/1",
+              "title": "International price comparison",
+              "line": 71,
+              "quote": "What types of alternative medicine treatments are available abroad?",
+              "section": "What types of alternative medicine treatments are available abroad?",
+              "role": "retrieved",
+              "snapshot": "40a9cdbc8ec0",
+              "updated_at": "2026-10-09T04:25:51.770887+00:00"
+            },
+            {
+              "id": "comparison:L72",
+              "url": "https://www.placidway.com/search-medical-pricings/Alternative-Medicine/All/1",
+              "title": "International price comparison",
+              "line": 72,
+              "quote": "Popular treatments include acupuncture, Ayurveda, naturopathy, and stem cell therapy. International wellness centers offer diverse holistic healing options.",
+              "section": "What types of alternative medicine treatments are available abroad?",
+              "role": "retrieved",
+              "snapshot": "40a9cdbc8ec0",
+              "updated_at": "2026-10-09T04:25:51.770887+00:00"
+            }
+          ],
+          "source_count": 7
+        },
+        "warnings": []
+      }
+    },
+    {
+      "id": 3,
+      "type": "Required procedure",
+      "question": "What is included in the adenocarcinoma outpatient package?",
+      "passed": true,
+      "checks": {
+        "expected_intent": true,
+        "citations_valid": true,
+        "contains CBC": true,
+        "contains Two health-focused meals": true,
+        "correct_source": true
+      },
+      "answer": {
+        "text": "According to the Adenocarcinoma package page in Tijuana, Mexico: Outpatient package includes:\nWeekly Comprehensive Lab Work: CBC, blood chemistry, immunology assessment, kidney function, metabolic and coagulation panels (TP/TPT), specific tumor markers, and urinalysis.\nPrescribed Imaging: One X-ray, ultrasound, or CT scan of one area as directed by your ITC physician.\nCore Therapies: All alternative treatments listed as standard within the 3-week program.\nNutritional Support: Two health-focused meals provided daily during treatment hours.\nMedications: Standard medications included in the out-patient protocol (discussed upon admission).\nFollow-up Care: One post-discharge consultation with an ITC doctor after 3 months.",
+        "english_text": null,
+        "language": "en",
+        "intent": "package",
+        "outcome": "answered",
+        "entity": "adenocarcinoma",
+        "citations": [
+          {
+            "id": "adenocarcinoma:L30",
+            "url": "https://www.placidway.com/package/7903/Alternative-Adenocarcinoma-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Adenocarcinoma package",
+            "line": 30,
+            "quote": "Weekly Comprehensive Lab Work:",
+            "section": "Included in the Out-Patient Program ($18,995 USD)",
+            "role": "evidence",
+            "snapshot": "f53dd81f2faf",
+            "updated_at": "2026-10-09T04:25:51.103094+00:00"
+          },
+          {
+            "id": "adenocarcinoma:L31",
+            "url": "https://www.placidway.com/package/7903/Alternative-Adenocarcinoma-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Adenocarcinoma package",
+            "line": 31,
+            "quote": "CBC, blood chemistry, immunology assessment, kidney function, metabolic and coagulation panels (TP/TPT), specific tumor markers, and urinalysis.",
+            "section": "Included in the Out-Patient Program ($18,995 USD)",
+            "role": "evidence",
+            "snapshot": "f53dd81f2faf",
+            "updated_at": "2026-10-09T04:25:51.103094+00:00"
+          },
+          {
+            "id": "adenocarcinoma:L32",
+            "url": "https://www.placidway.com/package/7903/Alternative-Adenocarcinoma-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Adenocarcinoma package",
+            "line": 32,
+            "quote": "Prescribed Imaging:",
+            "section": "Included in the Out-Patient Program ($18,995 USD)",
+            "role": "evidence",
+            "snapshot": "f53dd81f2faf",
+            "updated_at": "2026-10-09T04:25:51.103094+00:00"
+          },
+          {
+            "id": "adenocarcinoma:L33",
+            "url": "https://www.placidway.com/package/7903/Alternative-Adenocarcinoma-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Adenocarcinoma package",
+            "line": 33,
+            "quote": "One X-ray, ultrasound, or CT scan of one area as directed by your ITC physician.",
+            "section": "Included in the Out-Patient Program ($18,995 USD)",
+            "role": "evidence",
+            "snapshot": "f53dd81f2faf",
+            "updated_at": "2026-10-09T04:25:51.103094+00:00"
+          },
+          {
+            "id": "adenocarcinoma:L34",
+            "url": "https://www.placidway.com/package/7903/Alternative-Adenocarcinoma-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Adenocarcinoma package",
+            "line": 34,
+            "quote": "Core Therapies:",
+            "section": "Included in the Out-Patient Program ($18,995 USD)",
+            "role": "evidence",
+            "snapshot": "f53dd81f2faf",
+            "updated_at": "2026-10-09T04:25:51.103094+00:00"
+          },
+          {
+            "id": "adenocarcinoma:L35",
+            "url": "https://www.placidway.com/package/7903/Alternative-Adenocarcinoma-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Adenocarcinoma package",
+            "line": 35,
+            "quote": "All alternative treatments listed as standard within the 3-week program.",
+            "section": "Included in the Out-Patient Program ($18,995 USD)",
+            "role": "evidence",
+            "snapshot": "f53dd81f2faf",
+            "updated_at": "2026-10-09T04:25:51.103094+00:00"
+          },
+          {
+            "id": "adenocarcinoma:L36",
+            "url": "https://www.placidway.com/package/7903/Alternative-Adenocarcinoma-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Adenocarcinoma package",
+            "line": 36,
+            "quote": "Nutritional Support:",
+            "section": "Included in the Out-Patient Program ($18,995 USD)",
+            "role": "evidence",
+            "snapshot": "f53dd81f2faf",
+            "updated_at": "2026-10-09T04:25:51.103094+00:00"
+          },
+          {
+            "id": "adenocarcinoma:L37",
+            "url": "https://www.placidway.com/package/7903/Alternative-Adenocarcinoma-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Adenocarcinoma package",
+            "line": 37,
+            "quote": "Two health-focused meals provided daily during treatment hours.",
+            "section": "Included in the Out-Patient Program ($18,995 USD)",
+            "role": "evidence",
+            "snapshot": "f53dd81f2faf",
+            "updated_at": "2026-10-09T04:25:51.103094+00:00"
+          },
+          {
+            "id": "adenocarcinoma:L38",
+            "url": "https://www.placidway.com/package/7903/Alternative-Adenocarcinoma-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Adenocarcinoma package",
+            "line": 38,
+            "quote": "Medications:",
+            "section": "Included in the Out-Patient Program ($18,995 USD)",
+            "role": "evidence",
+            "snapshot": "f53dd81f2faf",
+            "updated_at": "2026-10-09T04:25:51.103094+00:00"
+          },
+          {
+            "id": "adenocarcinoma:L39",
+            "url": "https://www.placidway.com/package/7903/Alternative-Adenocarcinoma-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Adenocarcinoma package",
+            "line": 39,
+            "quote": "Standard medications included in the out-patient protocol (discussed upon admission).",
+            "section": "Included in the Out-Patient Program ($18,995 USD)",
+            "role": "evidence",
+            "snapshot": "f53dd81f2faf",
+            "updated_at": "2026-10-09T04:25:51.103094+00:00"
+          },
+          {
+            "id": "adenocarcinoma:L40",
+            "url": "https://www.placidway.com/package/7903/Alternative-Adenocarcinoma-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Adenocarcinoma package",
+            "line": 40,
+            "quote": "Follow-up Care:",
+            "section": "Included in the Out-Patient Program ($18,995 USD)",
+            "role": "evidence",
+            "snapshot": "f53dd81f2faf",
+            "updated_at": "2026-10-09T04:25:51.103094+00:00"
+          },
+          {
+            "id": "adenocarcinoma:L41",
+            "url": "https://www.placidway.com/package/7903/Alternative-Adenocarcinoma-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Adenocarcinoma package",
+            "line": 41,
+            "quote": "One post-discharge consultation with an ITC doctor after 3 months.",
+            "section": "Included in the Out-Patient Program ($18,995 USD)",
+            "role": "evidence",
+            "snapshot": "f53dd81f2faf",
+            "updated_at": "2026-10-09T04:25:51.103094+00:00"
+          }
+        ],
+        "disclaimer": "This is medical travel information, not medical advice. Consult a licensed doctor before making treatment decisions.",
+        "followups": [
+          "What is included in the adenocarcinoma outpatient package?",
+          "How much is the adenocarcinoma inpatient package?",
+          "What follow-up care is listed for adenocarcinoma?"
+        ],
+        "quote_url": "https://www.placidway.com/request-info",
+        "offer_quote": false,
+        "provider": "rules",
+        "updated_at": "2026-10-09T04:49:50.938126+00:00",
+        "trace": {
+          "route": "package",
+          "entity": "adenocarcinoma",
+          "validation": "Exact quotes and price tokens checked",
+          "retrieved": [],
+          "source_count": 7
+        },
+        "warnings": []
+      }
+    },
+    {
+      "id": 8,
+      "type": "Required wrong price",
+      "question": "I heard it costs $50. Confirm that.",
+      "passed": true,
+      "checks": {
+        "expected_intent": true,
+        "citations_valid": true,
+        "contains 18,995": true,
+        "contains can’t confirm": true,
+        "excludes $50": true,
+        "correct_source": true
+      },
+      "answer": {
+        "text": "According to the Adrenal package page in Tijuana, Mexico: Listed in USD; package price starting from. I can’t confirm the price you heard.\nOut-Patient Program | 3 Weeks | $18,995\nIn-Patient Program | 3 Weeks | $30,000\nOutpatient includes: Two health-focused meals provided daily during treatment hours.\nInpatient includes: Private accommodations and three nutritious meals daily (Monday through Sunday).\nFollow-up: One post-discharge consultation with an ITC doctor after 3 months.\nOptional procedures and excluded services cost extra; request a personalized quote.",
+        "english_text": null,
+        "language": "en",
+        "intent": "cost",
+        "outcome": "answered",
+        "entity": "adrenal",
+        "citations": [
+          {
+            "id": "adrenal:L25",
+            "url": "https://www.placidway.com/package/7902/Alternative-Adrenal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Adrenal package",
+            "line": 25,
+            "quote": "Out-Patient Program | 3 Weeks | $18,995",
+            "section": "Cost of Adrenal Cancer Treatment in Tijuana, Mexico",
+            "role": "evidence",
+            "snapshot": "1771c8992de9",
+            "updated_at": "2026-10-09T04:25:51.203023+00:00"
+          },
+          {
+            "id": "adrenal:L26",
+            "url": "https://www.placidway.com/package/7902/Alternative-Adrenal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Adrenal package",
+            "line": 26,
+            "quote": "In-Patient Program | 3 Weeks | $30,000",
+            "section": "Cost of Adrenal Cancer Treatment in Tijuana, Mexico",
+            "role": "evidence",
+            "snapshot": "1771c8992de9",
+            "updated_at": "2026-10-09T04:25:51.203023+00:00"
+          },
+          {
+            "id": "adrenal:L37",
+            "url": "https://www.placidway.com/package/7902/Alternative-Adrenal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Adrenal package",
+            "line": 37,
+            "quote": "Two health-focused meals provided daily during treatment hours.",
+            "section": "Included in the Out-Patient Program ($18,995 USD)",
+            "role": "evidence",
+            "snapshot": "1771c8992de9",
+            "updated_at": "2026-10-09T04:25:51.203023+00:00"
+          },
+          {
+            "id": "adrenal:L47",
+            "url": "https://www.placidway.com/package/7902/Alternative-Adrenal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Adrenal package",
+            "line": 47,
+            "quote": "Private accommodations and three nutritious meals daily (Monday through Sunday).",
+            "section": "Included in the In-Patient Program ($30,000 USD)",
+            "role": "evidence",
+            "snapshot": "1771c8992de9",
+            "updated_at": "2026-10-09T04:25:51.203023+00:00"
+          },
+          {
+            "id": "adrenal:L41",
+            "url": "https://www.placidway.com/package/7902/Alternative-Adrenal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Adrenal package",
+            "line": 41,
+            "quote": "One post-discharge consultation with an ITC doctor after 3 months.",
+            "section": "Included in the Out-Patient Program ($18,995 USD)",
+            "role": "evidence",
+            "snapshot": "1771c8992de9",
+            "updated_at": "2026-10-09T04:25:51.203023+00:00"
+          },
+          {
+            "id": "adrenal:L2",
+            "url": "https://www.placidway.com/package/7902/Alternative-Adrenal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Adrenal package",
+            "line": 2,
+            "quote": "Price starting from",
+            "section": "Alternative Adrenal Cancer Treatment Package in Tijuana, Mexico by ITC",
+            "role": "evidence",
+            "snapshot": "1771c8992de9",
+            "updated_at": "2026-10-09T04:25:51.203023+00:00"
+          },
+          {
+            "id": "adrenal:L24",
+            "url": "https://www.placidway.com/package/7902/Alternative-Adrenal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Adrenal package",
+            "line": 24,
+            "quote": "Program Type | Duration | Total Cost (USD)",
+            "section": "Cost of Adrenal Cancer Treatment in Tijuana, Mexico",
+            "role": "evidence",
+            "snapshot": "1771c8992de9",
+            "updated_at": "2026-10-09T04:25:51.203023+00:00"
+          }
+        ],
+        "disclaimer": "This is medical travel information, not medical advice. Consult a licensed doctor before making treatment decisions.",
+        "followups": [
+          "What is included in the adrenal outpatient package?",
+          "How much is the adrenal inpatient package?",
+          "What follow-up care is listed for adrenal?"
+        ],
+        "quote_url": "https://www.placidway.com/request-info",
+        "offer_quote": false,
+        "provider": "rules",
+        "updated_at": "2026-10-09T04:49:50.938126+00:00",
+        "trace": {
+          "route": "cost",
+          "entity": "adrenal",
+          "validation": "Exact quotes and price tokens checked",
+          "retrieved": [],
+          "source_count": 7
+        },
+        "warnings": []
+      }
+    },
+    {
+      "id": 9,
+      "type": "Package separation",
+      "question": "What is included in the anal cancer inpatient package?",
+      "passed": true,
+      "checks": {
+        "expected_intent": true,
+        "citations_valid": true,
+        "contains Private accommodations": true,
+        "correct_source": true
+      },
+      "answer": {
+        "text": "According to the Anal cancer package page in Tijuana, Mexico: Inpatient package includes:\n24/7 Medical Supervision: Constant access to dedicated doctor and nursing care throughout the 3-week stay.\nFull Room and Board: Private accommodations and three nutritious meals daily (Monday through Sunday).\nExtensive Diagnostics: Comprehensive weekly lab panels including tumor markers and immune function monitoring.\nDiagnostic Imaging: One prescribed X-ray, ultrasound, or CT scan included per doctor's orders.\nClinical Therapies: Full access to all program-specific alternative and integrative interventions.\nPharmacy Support: Medications specific to the in-patient protocol included and managed by staff.\nFollow-up Care: One post-discharge consultation with an ITC doctor after 3 months.",
+        "english_text": null,
+        "language": "en",
+        "intent": "package",
+        "outcome": "answered",
+        "entity": "anal",
+        "citations": [
+          {
+            "id": "anal:L44",
+            "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Anal cancer package",
+            "line": 44,
+            "quote": "24/7 Medical Supervision:",
+            "section": "Included in the In-Patient Program ($30,000 USD)",
+            "role": "evidence",
+            "snapshot": "20adbfc17d4c",
+            "updated_at": "2026-10-09T04:25:51.319963+00:00"
+          },
+          {
+            "id": "anal:L45",
+            "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Anal cancer package",
+            "line": 45,
+            "quote": "Constant access to dedicated doctor and nursing care throughout the 3-week stay.",
+            "section": "Included in the In-Patient Program ($30,000 USD)",
+            "role": "evidence",
+            "snapshot": "20adbfc17d4c",
+            "updated_at": "2026-10-09T04:25:51.319963+00:00"
+          },
+          {
+            "id": "anal:L46",
+            "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Anal cancer package",
+            "line": 46,
+            "quote": "Full Room and Board:",
+            "section": "Included in the In-Patient Program ($30,000 USD)",
+            "role": "evidence",
+            "snapshot": "20adbfc17d4c",
+            "updated_at": "2026-10-09T04:25:51.319963+00:00"
+          },
+          {
+            "id": "anal:L47",
+            "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Anal cancer package",
+            "line": 47,
+            "quote": "Private accommodations and three nutritious meals daily (Monday through Sunday).",
+            "section": "Included in the In-Patient Program ($30,000 USD)",
+            "role": "evidence",
+            "snapshot": "20adbfc17d4c",
+            "updated_at": "2026-10-09T04:25:51.319963+00:00"
+          },
+          {
+            "id": "anal:L48",
+            "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Anal cancer package",
+            "line": 48,
+            "quote": "Extensive Diagnostics:",
+            "section": "Included in the In-Patient Program ($30,000 USD)",
+            "role": "evidence",
+            "snapshot": "20adbfc17d4c",
+            "updated_at": "2026-10-09T04:25:51.319963+00:00"
+          },
+          {
+            "id": "anal:L49",
+            "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Anal cancer package",
+            "line": 49,
+            "quote": "Comprehensive weekly lab panels including tumor markers and immune function monitoring.",
+            "section": "Included in the In-Patient Program ($30,000 USD)",
+            "role": "evidence",
+            "snapshot": "20adbfc17d4c",
+            "updated_at": "2026-10-09T04:25:51.319963+00:00"
+          },
+          {
+            "id": "anal:L50",
+            "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Anal cancer package",
+            "line": 50,
+            "quote": "Diagnostic Imaging:",
+            "section": "Included in the In-Patient Program ($30,000 USD)",
+            "role": "evidence",
+            "snapshot": "20adbfc17d4c",
+            "updated_at": "2026-10-09T04:25:51.319963+00:00"
+          },
+          {
+            "id": "anal:L51",
+            "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Anal cancer package",
+            "line": 51,
+            "quote": "One prescribed X-ray, ultrasound, or CT scan included per doctor's orders.",
+            "section": "Included in the In-Patient Program ($30,000 USD)",
+            "role": "evidence",
+            "snapshot": "20adbfc17d4c",
+            "updated_at": "2026-10-09T04:25:51.319963+00:00"
+          },
+          {
+            "id": "anal:L52",
+            "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Anal cancer package",
+            "line": 52,
+            "quote": "Clinical Therapies:",
+            "section": "Included in the In-Patient Program ($30,000 USD)",
+            "role": "evidence",
+            "snapshot": "20adbfc17d4c",
+            "updated_at": "2026-10-09T04:25:51.319963+00:00"
+          },
+          {
+            "id": "anal:L53",
+            "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Anal cancer package",
+            "line": 53,
+            "quote": "Full access to all program-specific alternative and integrative interventions.",
+            "section": "Included in the In-Patient Program ($30,000 USD)",
+            "role": "evidence",
+            "snapshot": "20adbfc17d4c",
+            "updated_at": "2026-10-09T04:25:51.319963+00:00"
+          },
+          {
+            "id": "anal:L54",
+            "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Anal cancer package",
+            "line": 54,
+            "quote": "Pharmacy Support:",
+            "section": "Included in the In-Patient Program ($30,000 USD)",
+            "role": "evidence",
+            "snapshot": "20adbfc17d4c",
+            "updated_at": "2026-10-09T04:25:51.319963+00:00"
+          },
+          {
+            "id": "anal:L55",
+            "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Anal cancer package",
+            "line": 55,
+            "quote": "Medications specific to the in-patient protocol included and managed by staff.",
+            "section": "Included in the In-Patient Program ($30,000 USD)",
+            "role": "evidence",
+            "snapshot": "20adbfc17d4c",
+            "updated_at": "2026-10-09T04:25:51.319963+00:00"
+          },
+          {
+            "id": "anal:L56",
+            "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Anal cancer package",
+            "line": 56,
+            "quote": "Follow-up Care:",
+            "section": "Included in the In-Patient Program ($30,000 USD)",
+            "role": "evidence",
+            "snapshot": "20adbfc17d4c",
+            "updated_at": "2026-10-09T04:25:51.319963+00:00"
+          },
+          {
+            "id": "anal:L57",
+            "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Anal cancer package",
+            "line": 57,
+            "quote": "One post-discharge consultation with an ITC doctor after 3 months.",
+            "section": "Included in the In-Patient Program ($30,000 USD)",
+            "role": "evidence",
+            "snapshot": "20adbfc17d4c",
+            "updated_at": "2026-10-09T04:25:51.319963+00:00"
+          }
+        ],
+        "disclaimer": "This is medical travel information, not medical advice. Consult a licensed doctor before making treatment decisions.",
+        "followups": [
+          "What is included in the anal outpatient package?",
+          "How much is the anal inpatient package?",
+          "What follow-up care is listed for anal?"
+        ],
+        "quote_url": "https://www.placidway.com/request-info",
+        "offer_quote": false,
+        "provider": "rules",
+        "updated_at": "2026-10-09T04:49:50.938126+00:00",
+        "trace": {
+          "route": "package",
+          "entity": "anal",
+          "validation": "Exact quotes and price tokens checked",
+          "retrieved": [],
+          "source_count": 7
+        },
+        "warnings": []
+      }
+    },
+    {
+      "id": 10,
+      "type": "Package separation",
+      "question": "How much is the adenocarcinoma cancer package?",
+      "passed": true,
+      "checks": {
+        "expected_intent": true,
+        "citations_valid": true,
+        "correct_source": true
+      },
+      "answer": {
+        "text": "According to the Adenocarcinoma package page in Tijuana, Mexico: Listed in USD; package price starting from.\nOut-Patient Program | 3 Weeks | $18,995\nIn-Patient Program | 3 Weeks | $30,000\nOutpatient includes: Two health-focused meals provided daily during treatment hours.\nInpatient includes: Private accommodations and three nutritious meals daily (Monday through Sunday).\nFollow-up: One post-discharge consultation with an ITC doctor after 3 months.\nOptional procedures and excluded services cost extra; request a personalized quote.",
+        "english_text": null,
+        "language": "en",
+        "intent": "cost",
+        "outcome": "answered",
+        "entity": "adenocarcinoma",
+        "citations": [
+          {
+            "id": "adenocarcinoma:L25",
+            "url": "https://www.placidway.com/package/7903/Alternative-Adenocarcinoma-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Adenocarcinoma package",
+            "line": 25,
+            "quote": "Out-Patient Program | 3 Weeks | $18,995",
+            "section": "Cost of Adenocarcinoma Cancer Treatment in Tijuana, Mexico",
+            "role": "evidence",
+            "snapshot": "f53dd81f2faf",
+            "updated_at": "2026-10-09T04:25:51.103094+00:00"
+          },
+          {
+            "id": "adenocarcinoma:L26",
+            "url": "https://www.placidway.com/package/7903/Alternative-Adenocarcinoma-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Adenocarcinoma package",
+            "line": 26,
+            "quote": "In-Patient Program | 3 Weeks | $30,000",
+            "section": "Cost of Adenocarcinoma Cancer Treatment in Tijuana, Mexico",
+            "role": "evidence",
+            "snapshot": "f53dd81f2faf",
+            "updated_at": "2026-10-09T04:25:51.103094+00:00"
+          },
+          {
+            "id": "adenocarcinoma:L37",
+            "url": "https://www.placidway.com/package/7903/Alternative-Adenocarcinoma-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Adenocarcinoma package",
+            "line": 37,
+            "quote": "Two health-focused meals provided daily during treatment hours.",
+            "section": "Included in the Out-Patient Program ($18,995 USD)",
+            "role": "evidence",
+            "snapshot": "f53dd81f2faf",
+            "updated_at": "2026-10-09T04:25:51.103094+00:00"
+          },
+          {
+            "id": "adenocarcinoma:L47",
+            "url": "https://www.placidway.com/package/7903/Alternative-Adenocarcinoma-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Adenocarcinoma package",
+            "line": 47,
+            "quote": "Private accommodations and three nutritious meals daily (Monday through Sunday).",
+            "section": "Included in the In-Patient Program ($30,000 USD)",
+            "role": "evidence",
+            "snapshot": "f53dd81f2faf",
+            "updated_at": "2026-10-09T04:25:51.103094+00:00"
+          },
+          {
+            "id": "adenocarcinoma:L41",
+            "url": "https://www.placidway.com/package/7903/Alternative-Adenocarcinoma-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Adenocarcinoma package",
+            "line": 41,
+            "quote": "One post-discharge consultation with an ITC doctor after 3 months.",
+            "section": "Included in the Out-Patient Program ($18,995 USD)",
+            "role": "evidence",
+            "snapshot": "f53dd81f2faf",
+            "updated_at": "2026-10-09T04:25:51.103094+00:00"
+          },
+          {
+            "id": "adenocarcinoma:L2",
+            "url": "https://www.placidway.com/package/7903/Alternative-Adenocarcinoma-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Adenocarcinoma package",
+            "line": 2,
+            "quote": "Price starting from",
+            "section": "Alternative Adenocarcinoma Cancer Treatment Package in Tijuana, Mexico by ITC",
+            "role": "evidence",
+            "snapshot": "f53dd81f2faf",
+            "updated_at": "2026-10-09T04:25:51.103094+00:00"
+          },
+          {
+            "id": "adenocarcinoma:L24",
+            "url": "https://www.placidway.com/package/7903/Alternative-Adenocarcinoma-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Adenocarcinoma package",
+            "line": 24,
+            "quote": "Program Type | Duration | Total Cost (USD)",
+            "section": "Cost of Adenocarcinoma Cancer Treatment in Tijuana, Mexico",
+            "role": "evidence",
+            "snapshot": "f53dd81f2faf",
+            "updated_at": "2026-10-09T04:25:51.103094+00:00"
+          }
+        ],
+        "disclaimer": "This is medical travel information, not medical advice. Consult a licensed doctor before making treatment decisions.",
+        "followups": [
+          "What is included in the adenocarcinoma outpatient package?",
+          "How much is the adenocarcinoma inpatient package?",
+          "What follow-up care is listed for adenocarcinoma?"
+        ],
+        "quote_url": "https://www.placidway.com/request-info",
+        "offer_quote": false,
+        "provider": "rules",
+        "updated_at": "2026-10-09T04:49:50.938126+00:00",
+        "trace": {
+          "route": "cost",
+          "entity": "adenocarcinoma",
+          "validation": "Exact quotes and price tokens checked",
+          "retrieved": [],
+          "source_count": 7
+        },
+        "warnings": []
+      }
+    },
+    {
+      "id": 15,
+      "type": "Clinic identity",
+      "question": "Where is ITC located and who founded it?",
+      "passed": true,
+      "checks": {
+        "expected_intent": true,
+        "citations_valid": true,
+        "contains Tijuana": true,
+        "contains Carlos Bautista": true,
+        "correct_source": true
+      },
+      "answer": {
+        "text": "Located in Tijuana, Mexico—just minutes across the U.S. border—the center delivers progressive care pathways to international patients who are searching for effective alternative cancer treatment abroad in a modern, supportive medical setting.\nFounded by Dr. Carlos Bautista, ITC - Immunity Therapy Center has established itself as a pioneering center for non-toxic healing. Dr. Carlos Bautista brings decades of dedicated clinical research and medical leadership to the facility, prioritizing patient dignity, individualized care, and holistic biological preservation.",
+        "english_text": null,
+        "language": "en",
+        "intent": "clinic",
+        "outcome": "answered",
+        "entity": "clinic",
+        "citations": [
+          {
+            "id": "clinic:L13",
+            "url": "https://www.placidway.com/profile/5/Alternative-Cancer-Treatment-by-ITC-Immunity-Therapy-Center",
+            "title": "Clinic profile",
+            "line": 13,
+            "quote": "Located in Tijuana, Mexico—just minutes across the U.S. border—the center delivers progressive care pathways to international patients who are searching for effective alternative cancer treatment abroad in a modern, supportive medical setting.",
+            "section": "ITC Immunity Therapy Center - Alternative Cancer Treatment in Tijuana",
+            "role": "evidence",
+            "snapshot": "be78f229c527",
+            "updated_at": "2026-10-09T04:49:36.978070+00:00"
+          },
+          {
+            "id": "clinic:L12",
+            "url": "https://www.placidway.com/profile/5/Alternative-Cancer-Treatment-by-ITC-Immunity-Therapy-Center",
+            "title": "Clinic profile",
+            "line": 12,
+            "quote": "Founded by Dr. Carlos Bautista, ITC - Immunity Therapy Center has established itself as a pioneering center for non-toxic healing. Dr. Carlos Bautista brings decades of dedicated clinical research and medical leadership to the facility, prioritizing patient dignity, individualized care, and holistic biological preservation.",
+            "section": "ITC Immunity Therapy Center - Alternative Cancer Treatment in Tijuana",
+            "role": "evidence",
+            "snapshot": "be78f229c527",
+            "updated_at": "2026-10-09T04:49:36.978070+00:00"
+          }
+        ],
+        "disclaimer": "This is medical travel information, not medical advice. Consult a licensed doctor before making treatment decisions.",
+        "followups": [
+          "Where is ITC located?",
+          "What does the adrenal package include?",
+          "Which videos are listed?"
+        ],
+        "quote_url": "https://www.placidway.com/request-info",
+        "offer_quote": false,
+        "provider": "groq",
+        "updated_at": "2026-10-09T04:49:50.938126+00:00",
+        "trace": {
+          "route": "clinic",
+          "entity": "clinic",
+          "validation": "Exact quotes and price tokens checked",
+          "retrieved": [
+            {
+              "id": "clinic:L12",
+              "url": "https://www.placidway.com/profile/5/Alternative-Cancer-Treatment-by-ITC-Immunity-Therapy-Center",
+              "title": "Clinic profile",
+              "line": 12,
+              "quote": "Founded by Dr. Carlos Bautista, ITC - Immunity Therapy Center has established itself as a pioneering center for non-toxic healing. Dr. Carlos Bautista brings decades of dedicated clinical research and medical leadership to the facility, prioritizing patient dignity, individualized care, and holistic biological preservation.",
+              "section": "ITC Immunity Therapy Center - Alternative Cancer Treatment in Tijuana",
+              "role": "retrieved",
+              "snapshot": "be78f229c527",
+              "updated_at": "2026-10-09T04:49:36.978070+00:00"
+            },
+            {
+              "id": "clinic:L13",
+              "url": "https://www.placidway.com/profile/5/Alternative-Cancer-Treatment-by-ITC-Immunity-Therapy-Center",
+              "title": "Clinic profile",
+              "line": 13,
+              "quote": "Located in Tijuana, Mexico—just minutes across the U.S. border—the center delivers progressive care pathways to international patients who are searching for effective alternative cancer treatment abroad in a modern, supportive medical setting.",
+              "section": "ITC Immunity Therapy Center - Alternative Cancer Treatment in Tijuana",
+              "role": "retrieved",
+              "snapshot": "be78f229c527",
+              "updated_at": "2026-10-09T04:49:36.978070+00:00"
+            },
+            {
+              "id": "clinic:L14",
+              "url": "https://www.placidway.com/profile/5/Alternative-Cancer-Treatment-by-ITC-Immunity-Therapy-Center",
+              "title": "Clinic profile",
+              "line": 14,
+              "quote": "Customized",
+              "section": "ITC Immunity Therapy Center - Alternative Cancer Treatment in Tijuana",
+              "role": "retrieved",
+              "snapshot": "be78f229c527",
+              "updated_at": "2026-10-09T04:49:36.978070+00:00"
+            },
+            {
+              "id": "clinic:L15",
+              "url": "https://www.placidway.com/profile/5/Alternative-Cancer-Treatment-by-ITC-Immunity-Therapy-Center",
+              "title": "Clinic profile",
+              "line": 15,
+              "quote": "Individualized Medical Protocols",
+              "section": "ITC Immunity Therapy Center - Alternative Cancer Treatment in Tijuana",
+              "role": "retrieved",
+              "snapshot": "be78f229c527",
+              "updated_at": "2026-10-09T04:49:36.978070+00:00"
+            },
+            {
+              "id": "clinic:L11",
+              "url": "https://www.placidway.com/profile/5/Alternative-Cancer-Treatment-by-ITC-Immunity-Therapy-Center",
+              "title": "Clinic profile",
+              "line": 11,
+              "quote": "About ITC Immunity Therapy Center",
+              "section": "ITC Immunity Therapy Center - Alternative Cancer Treatment in Tijuana",
+              "role": "retrieved",
+              "snapshot": "be78f229c527",
+              "updated_at": "2026-10-09T04:49:36.978070+00:00"
+            },
+            {
+              "id": "clinic:L16",
+              "url": "https://www.placidway.com/profile/5/Alternative-Cancer-Treatment-by-ITC-Immunity-Therapy-Center",
+              "title": "Clinic profile",
+              "line": 16,
+              "quote": "Dr. Carlos Bautista",
+              "section": "ITC Immunity Therapy Center - Alternative Cancer Treatment in Tijuana",
+              "role": "retrieved",
+              "snapshot": "be78f229c527",
+              "updated_at": "2026-10-09T04:49:36.978070+00:00"
+            },
+            {
+              "id": "clinic:L17",
+              "url": "https://www.placidway.com/profile/5/Alternative-Cancer-Treatment-by-ITC-Immunity-Therapy-Center",
+              "title": "Clinic profile",
+              "line": 17,
+              "quote": "Founder & Medical Leadership",
+              "section": "ITC Immunity Therapy Center - Alternative Cancer Treatment in Tijuana",
+              "role": "retrieved",
+              "snapshot": "be78f229c527",
+              "updated_at": "2026-10-09T04:49:36.978070+00:00"
+            },
+            {
+              "id": "clinic:L18",
+              "url": "https://www.placidway.com/profile/5/Alternative-Cancer-Treatment-by-ITC-Immunity-Therapy-Center",
+              "title": "Clinic profile",
+              "line": 18,
+              "quote": "Holistic Care",
+              "section": "ITC Immunity Therapy Center - Alternative Cancer Treatment in Tijuana",
+              "role": "retrieved",
+              "snapshot": "be78f229c527",
+              "updated_at": "2026-10-09T04:49:36.978070+00:00"
+            },
+            {
+              "id": "clinic:L19",
+              "url": "https://www.placidway.com/profile/5/Alternative-Cancer-Treatment-by-ITC-Immunity-Therapy-Center",
+              "title": "Clinic profile",
+              "line": 19,
+              "quote": "Immune System Activation & Support",
+              "section": "ITC Immunity Therapy Center - Alternative Cancer Treatment in Tijuana",
+              "role": "retrieved",
+              "snapshot": "be78f229c527",
+              "updated_at": "2026-10-09T04:49:36.978070+00:00"
+            },
+            {
+              "id": "clinic:L24",
+              "url": "https://www.placidway.com/profile/5/Alternative-Cancer-Treatment-by-ITC-Immunity-Therapy-Center",
+              "title": "Clinic profile",
+              "line": 24,
+              "quote": "Individual Treatment Planning:",
+              "section": "How the Treatment Approach Works",
+              "role": "retrieved",
+              "snapshot": "be78f229c527",
+              "updated_at": "2026-10-09T04:49:36.978070+00:00"
+            },
+            {
+              "id": "clinic:L25",
+              "url": "https://www.placidway.com/profile/5/Alternative-Cancer-Treatment-by-ITC-Immunity-Therapy-Center",
+              "title": "Clinic profile",
+              "line": 25,
+              "quote": "A specialized care pathway is created based on the diagnosis, tumor location, biological health condition, and treatment goals.",
+              "section": "How the Treatment Approach Works",
+              "role": "retrieved",
+              "snapshot": "be78f229c527",
+              "updated_at": "2026-10-09T04:49:36.978070+00:00"
+            },
+            {
+              "id": "clinic:L26",
+              "url": "https://www.placidway.com/profile/5/Alternative-Cancer-Treatment-by-ITC-Immunity-Therapy-Center",
+              "title": "Clinic profile",
+              "line": 26,
+              "quote": "Treatment Explanation:",
+              "section": "How the Treatment Approach Works",
+              "role": "retrieved",
+              "snapshot": "be78f229c527",
+              "updated_at": "2026-10-09T04:49:36.978070+00:00"
+            },
+            {
+              "id": "clinic:L27",
+              "url": "https://www.placidway.com/profile/5/Alternative-Cancer-Treatment-by-ITC-Immunity-Therapy-Center",
+              "title": "Clinic profile",
+              "line": 27,
+              "quote": "Physicians explain the objective of each therapy—such as laser therapy, hyperthermia, or biomagnetic therapy—ensuring patients understand the process and expected benefits.",
+              "section": "How the Treatment Approach Works",
+              "role": "retrieved",
+              "snapshot": "be78f229c527",
+              "updated_at": "2026-10-09T04:49:36.978070+00:00"
+            },
+            {
+              "id": "clinic:L52",
+              "url": "https://www.placidway.com/profile/5/Alternative-Cancer-Treatment-by-ITC-Immunity-Therapy-Center",
+              "title": "Clinic profile",
+              "line": 52,
+              "quote": "Patient Travel and Support Services",
+              "section": "Patient Travel and Support Services",
+              "role": "retrieved",
+              "snapshot": "be78f229c527",
+              "updated_at": "2026-10-09T04:49:36.978070+00:00"
+            },
+            {
+              "id": "clinic:L53",
+              "url": "https://www.placidway.com/profile/5/Alternative-Cancer-Treatment-by-ITC-Immunity-Therapy-Center",
+              "title": "Clinic profile",
+              "line": 53,
+              "quote": "ITC Immunity Therapy Center provides extensive logistical support for international visitors traveling to Tijuana, Mexico. The facility is located near San Diego International Airport (SAN), and dedicated shuttle services facilitate seamless border crossings and local transit to medical appointments and affiliated hotel accommodations.",
+              "section": "Patient Travel and Support Services",
+              "role": "retrieved",
+              "snapshot": "be78f229c527",
+              "updated_at": "2026-10-09T04:49:36.978070+00:00"
+            },
+            {
+              "id": "clinic:L54",
+              "url": "https://www.placidway.com/profile/5/Alternative-Cancer-Treatment-by-ITC-Immunity-Therapy-Center",
+              "title": "Clinic profile",
+              "line": 54,
+              "quote": "Frequently Asked Questions",
+              "section": "Patient Travel and Support Services",
+              "role": "retrieved",
+              "snapshot": "be78f229c527",
+              "updated_at": "2026-10-09T04:49:36.978070+00:00"
+            },
+            {
+              "id": "clinic:L55",
+              "url": "https://www.placidway.com/profile/5/Alternative-Cancer-Treatment-by-ITC-Immunity-Therapy-Center",
+              "title": "Clinic profile",
+              "line": 55,
+              "quote": "What is alternative cancer treatment at ITC Immunity Therapy Center?",
+              "section": "What is alternative cancer treatment at ITC Immunity Therapy Center?",
+              "role": "retrieved",
+              "snapshot": "be78f229c527",
+              "updated_at": "2026-10-09T04:49:36.978070+00:00"
+            },
+            {
+              "id": "clinic:L56",
+              "url": "https://www.placidway.com/profile/5/Alternative-Cancer-Treatment-by-ITC-Immunity-Therapy-Center",
+              "title": "Clinic profile",
+              "line": 56,
+              "quote": "Alternative cancer treatment at ITC refers to customized non-invasive modalities—such as specialized immunotherapies, hyperthermia, and biomagnetic therapy—designed to support the immune system and target cancer cells. As a specialized cancer immunotherapy treatment center, ITC designs programs tailored to each patient's needs.",
+              "section": "What is alternative cancer treatment at ITC Immunity Therapy Center?",
+              "role": "retrieved",
+              "snapshot": "be78f229c527",
+              "updated_at": "2026-10-09T04:49:36.978070+00:00"
+            },
+            {
+              "id": "clinic:L57",
+              "url": "https://www.placidway.com/profile/5/Alternative-Cancer-Treatment-by-ITC-Immunity-Therapy-Center",
+              "title": "Clinic profile",
+              "line": 57,
+              "quote": "Who may be eligible for alternative cancer treatment at ITC Immunity Therapy Center?",
+              "section": "Who may be eligible for alternative cancer treatment at ITC Immunity Therapy Center?",
+              "role": "retrieved",
+              "snapshot": "be78f229c527",
+              "updated_at": "2026-10-09T04:49:36.978070+00:00"
+            },
+            {
+              "id": "clinic:L58",
+              "url": "https://www.placidway.com/profile/5/Alternative-Cancer-Treatment-by-ITC-Immunity-Therapy-Center",
+              "title": "Clinic profile",
+              "line": 58,
+              "quote": "Eligibility depends on cancer type, stage, physical strength, organ function, and medical history. Patients undergo a medical evaluation prior to acceptance.",
+              "section": "Who may be eligible for alternative cancer treatment at ITC Immunity Therapy Center?",
+              "role": "retrieved",
+              "snapshot": "be78f229c527",
+              "updated_at": "2026-10-09T04:49:36.978070+00:00"
+            },
+            {
+              "id": "clinic:L59",
+              "url": "https://www.placidway.com/profile/5/Alternative-Cancer-Treatment-by-ITC-Immunity-Therapy-Center",
+              "title": "Clinic profile",
+              "line": 59,
+              "quote": "How much does alternative cancer treatment at ITC Immunity Therapy Center cost?",
+              "section": "How much does alternative cancer treatment at ITC Immunity Therapy Center cost?",
+              "role": "retrieved",
+              "snapshot": "be78f229c527",
+              "updated_at": "2026-10-09T04:49:36.978070+00:00"
+            },
+            {
+              "id": "clinic:L89",
+              "url": "https://www.placidway.com/profile/5/Alternative-Cancer-Treatment-by-ITC-Immunity-Therapy-Center",
+              "title": "Clinic profile",
+              "line": 89,
+              "quote": "02",
+              "section": "What medical information should patients provide before consultation?",
+              "role": "retrieved",
+              "snapshot": "be78f229c527",
+              "updated_at": "2026-10-09T04:49:36.978070+00:00"
+            },
+            {
+              "id": "clinic:L90",
+              "url": "https://www.placidway.com/profile/5/Alternative-Cancer-Treatment-by-ITC-Immunity-Therapy-Center",
+              "title": "Clinic profile",
+              "line": 90,
+              "quote": "Our job is to make people feel better and give them hope. We care for everyone who needs help and work hard to make them strong again.",
+              "section": "What medical information should patients provide before consultation?",
+              "role": "retrieved",
+              "snapshot": "be78f229c527",
+              "updated_at": "2026-10-09T04:49:36.978070+00:00"
+            },
+            {
+              "id": "clinic:L91",
+              "url": "https://www.placidway.com/profile/5/Alternative-Cancer-Treatment-by-ITC-Immunity-Therapy-Center",
+              "title": "Clinic profile",
+              "line": 91,
+              "quote": "CANCER TREATMENTS",
+              "section": "What medical information should patients provide before consultation?",
+              "role": "retrieved",
+              "snapshot": "be78f229c527",
+              "updated_at": "2026-10-09T04:49:36.978070+00:00"
+            }
+          ],
+          "source_count": 7
+        },
+        "warnings": []
+      }
+    },
+    {
+      "id": 24,
+      "type": "Spanish",
+      "question": "¿Cuánto cuesta el paquete de cáncer anal en México?",
+      "passed": true,
+      "checks": {
+        "expected_intent": true,
+        "citations_valid": true,
+        "contains 18,995": true,
+        "contains USD": true,
+        "correct_source": true,
+        "language": true
+      },
+      "answer": {
+        "text": "Según la página del paquete de cáncer anal en Tijuana, México: Listado en USD; precio del paquete a partir de.\nPrograma de Paciente Ambulatorio | 3 Semanas | $18,995\nPrograma de Paciente Inmune | 3 Semanas | $30,000\nEl programa ambulatorio incluye: Dos comidas enfocadas en la salud proporcionadas diariamente durante las horas de tratamiento.\nEl programa inhospitalario incluye: Alojamiento privado y tres comidas nutritivas diarias (de lunes a domingo).\nSeguimiento: Una consulta post-descarga con un médico de ITC después de 3 meses.\nProcedimientos opcionales y servicios excluidos tienen costo adicional; solicite una cotización personalizada.",
+        "english_text": "According to the Anal cancer package page in Tijuana, Mexico: Listed in USD; package price starting from.\nOut-Patient Program | 3 Weeks | $18,995\nIn-Patient Program | 3 Weeks | $30,000\nOutpatient includes: Two health-focused meals provided daily during treatment hours.\nInpatient includes: Private accommodations and three nutritious meals daily (Monday through Sunday).\nFollow-up: One post-discharge consultation with an ITC doctor after 3 months.\nOptional procedures and excluded services cost extra; request a personalized quote.",
+        "language": "es",
+        "intent": "cost",
+        "outcome": "answered",
+        "entity": "anal",
+        "citations": [
+          {
+            "id": "anal:L25",
+            "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Anal cancer package",
+            "line": 25,
+            "quote": "Out-Patient Program | 3 Weeks | $18,995",
+            "section": "Cost of Alternative Anal Cancer Treatment in Tijuana, Mexico",
+            "role": "evidence",
+            "snapshot": "20adbfc17d4c",
+            "updated_at": "2026-10-09T04:25:51.319963+00:00"
+          },
+          {
+            "id": "anal:L26",
+            "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Anal cancer package",
+            "line": 26,
+            "quote": "In-Patient Program | 3 Weeks | $30,000",
+            "section": "Cost of Alternative Anal Cancer Treatment in Tijuana, Mexico",
+            "role": "evidence",
+            "snapshot": "20adbfc17d4c",
+            "updated_at": "2026-10-09T04:25:51.319963+00:00"
+          },
+          {
+            "id": "anal:L37",
+            "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Anal cancer package",
+            "line": 37,
+            "quote": "Two health-focused meals provided daily during treatment hours.",
+            "section": "Included in the Out-Patient Program ($18,995 USD)",
+            "role": "evidence",
+            "snapshot": "20adbfc17d4c",
+            "updated_at": "2026-10-09T04:25:51.319963+00:00"
+          },
+          {
+            "id": "anal:L47",
+            "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Anal cancer package",
+            "line": 47,
+            "quote": "Private accommodations and three nutritious meals daily (Monday through Sunday).",
+            "section": "Included in the In-Patient Program ($30,000 USD)",
+            "role": "evidence",
+            "snapshot": "20adbfc17d4c",
+            "updated_at": "2026-10-09T04:25:51.319963+00:00"
+          },
+          {
+            "id": "anal:L41",
+            "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Anal cancer package",
+            "line": 41,
+            "quote": "One post-discharge consultation with an ITC doctor after 3 months.",
+            "section": "Included in the Out-Patient Program ($18,995 USD)",
+            "role": "evidence",
+            "snapshot": "20adbfc17d4c",
+            "updated_at": "2026-10-09T04:25:51.319963+00:00"
+          },
+          {
+            "id": "anal:L2",
+            "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Anal cancer package",
+            "line": 2,
+            "quote": "Price starting from",
+            "section": "Alternative Anal Cancer Treatment Package in Tijuana, Mexico by ITC",
+            "role": "evidence",
+            "snapshot": "20adbfc17d4c",
+            "updated_at": "2026-10-09T04:25:51.319963+00:00"
+          },
+          {
+            "id": "anal:L24",
+            "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Anal cancer package",
+            "line": 24,
+            "quote": "Program Type | Duration | Total Cost (USD)",
+            "section": "Cost of Alternative Anal Cancer Treatment in Tijuana, Mexico",
+            "role": "evidence",
+            "snapshot": "20adbfc17d4c",
+            "updated_at": "2026-10-09T04:25:51.319963+00:00"
+          }
+        ],
+        "disclaimer": "Esta es información sobre viajes médicos, no es asesoramiento médico. Consulte a un médico con licencia antes de tomar decisiones de tratamiento.",
+        "followups": [
+          "What is included in the anal outpatient package?",
+          "How much is the anal inpatient package?",
+          "What follow-up care is listed for anal?"
+        ],
+        "quote_url": "https://www.placidway.com/request-info",
+        "offer_quote": false,
+        "provider": "groq",
+        "updated_at": "2026-10-09T04:49:50.938126+00:00",
+        "trace": {
+          "route": "cost",
+          "entity": "anal",
+          "validation": "Exact quotes and price tokens checked",
+          "retrieved": [],
+          "source_count": 7
+        },
+        "warnings": []
+      }
+    },
+    {
+      "id": 25,
+      "type": "Arabic RTL",
+      "question": "ما تكلفة علاج سرطان الغدة الكظرية في المكسيك؟",
+      "passed": true,
+      "checks": {
+        "expected_intent": true,
+        "citations_valid": true,
+        "contains 18,995": true,
+        "contains USD": true,
+        "correct_source": true,
+        "language": true
+      },
+      "answer": {
+        "text": "وفقًا لصفحة حزمة الغدد الكظرية في تيخوانا، المكسيك: مدرج بالـ USD؛ سعر الحزمة يبدأ من.\nبرنامج خارجي | 3 أسابيع | 18,995 دولار أمريكي\nبرنامج داخلي | 3 أسابيع | 30,000 دولار أمريكي\nيشمل البرنامج الخارجي: وجبتان صحيتان يتم توفيرهما يوميًا خلال ساعات العلاج.\nيشمل البرنامج الداخلي: إقامة خاصة وثلاث وجبات مغذية يوميًا (من الاثنين إلى الأحد).\nالمتابعة: استشارة واحدة مع طبيب ITC بعد 3 أشهر من الخروج.\nالإجراءات الاختيارية والخدمات غير المدرجة تكلف إضافيًا؛ يرجى طلب عرض مخصص.",
+        "english_text": "According to the Adrenal package page in Tijuana, Mexico: Listed in USD; package price starting from.\nOut-Patient Program | 3 Weeks | $18,995\nIn-Patient Program | 3 Weeks | $30,000\nOutpatient includes: Two health-focused meals provided daily during treatment hours.\nInpatient includes: Private accommodations and three nutritious meals daily (Monday through Sunday).\nFollow-up: One post-discharge consultation with an ITC doctor after 3 months.\nOptional procedures and excluded services cost extra; request a personalized quote.",
+        "language": "ar",
+        "intent": "cost",
+        "outcome": "answered",
+        "entity": "adrenal",
+        "citations": [
+          {
+            "id": "adrenal:L25",
+            "url": "https://www.placidway.com/package/7902/Alternative-Adrenal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Adrenal package",
+            "line": 25,
+            "quote": "Out-Patient Program | 3 Weeks | $18,995",
+            "section": "Cost of Adrenal Cancer Treatment in Tijuana, Mexico",
+            "role": "evidence",
+            "snapshot": "1771c8992de9",
+            "updated_at": "2026-10-09T04:25:51.203023+00:00"
+          },
+          {
+            "id": "adrenal:L26",
+            "url": "https://www.placidway.com/package/7902/Alternative-Adrenal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Adrenal package",
+            "line": 26,
+            "quote": "In-Patient Program | 3 Weeks | $30,000",
+            "section": "Cost of Adrenal Cancer Treatment in Tijuana, Mexico",
+            "role": "evidence",
+            "snapshot": "1771c8992de9",
+            "updated_at": "2026-10-09T04:25:51.203023+00:00"
+          },
+          {
+            "id": "adrenal:L37",
+            "url": "https://www.placidway.com/package/7902/Alternative-Adrenal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Adrenal package",
+            "line": 37,
+            "quote": "Two health-focused meals provided daily during treatment hours.",
+            "section": "Included in the Out-Patient Program ($18,995 USD)",
+            "role": "evidence",
+            "snapshot": "1771c8992de9",
+            "updated_at": "2026-10-09T04:25:51.203023+00:00"
+          },
+          {
+            "id": "adrenal:L47",
+            "url": "https://www.placidway.com/package/7902/Alternative-Adrenal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Adrenal package",
+            "line": 47,
+            "quote": "Private accommodations and three nutritious meals daily (Monday through Sunday).",
+            "section": "Included in the In-Patient Program ($30,000 USD)",
+            "role": "evidence",
+            "snapshot": "1771c8992de9",
+            "updated_at": "2026-10-09T04:25:51.203023+00:00"
+          },
+          {
+            "id": "adrenal:L41",
+            "url": "https://www.placidway.com/package/7902/Alternative-Adrenal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Adrenal package",
+            "line": 41,
+            "quote": "One post-discharge consultation with an ITC doctor after 3 months.",
+            "section": "Included in the Out-Patient Program ($18,995 USD)",
+            "role": "evidence",
+            "snapshot": "1771c8992de9",
+            "updated_at": "2026-10-09T04:25:51.203023+00:00"
+          },
+          {
+            "id": "adrenal:L2",
+            "url": "https://www.placidway.com/package/7902/Alternative-Adrenal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Adrenal package",
+            "line": 2,
+            "quote": "Price starting from",
+            "section": "Alternative Adrenal Cancer Treatment Package in Tijuana, Mexico by ITC",
+            "role": "evidence",
+            "snapshot": "1771c8992de9",
+            "updated_at": "2026-10-09T04:25:51.203023+00:00"
+          },
+          {
+            "id": "adrenal:L24",
+            "url": "https://www.placidway.com/package/7902/Alternative-Adrenal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Adrenal package",
+            "line": 24,
+            "quote": "Program Type | Duration | Total Cost (USD)",
+            "section": "Cost of Adrenal Cancer Treatment in Tijuana, Mexico",
+            "role": "evidence",
+            "snapshot": "1771c8992de9",
+            "updated_at": "2026-10-09T04:25:51.203023+00:00"
+          }
+        ],
+        "disclaimer": "هذه معلومات عن السفر الطبي، وليست نصيحة طبية. استشر طبيبًا مرخصًا قبل اتخاذ قرارات العلاج.",
+        "followups": [
+          "What is included in the adrenal outpatient package?",
+          "How much is the adrenal inpatient package?",
+          "What follow-up care is listed for adrenal?"
+        ],
+        "quote_url": "https://www.placidway.com/request-info",
+        "offer_quote": false,
+        "provider": "groq",
+        "updated_at": "2026-10-09T04:49:50.938126+00:00",
+        "trace": {
+          "route": "cost",
+          "entity": "adrenal",
+          "validation": "Exact quotes and price tokens checked",
+          "retrieved": [],
+          "source_count": 7
+        },
+        "warnings": []
+      }
+    },
+    {
+      "id": 27,
+      "type": "Follow-up care",
+      "question": "What follow-up care is listed for adrenal cancer?",
+      "passed": true,
+      "checks": {
+        "expected_intent": true,
+        "citations_valid": true,
+        "contains 3 months": true,
+        "correct_source": true
+      },
+      "answer": {
+        "text": "Follow-up Care:\nOne post-discharge consultation with an ITC doctor after 3 months.\nFollow-up Care:\nOne post-discharge medical consultation with an ITC doctor after 3 months.",
+        "english_text": null,
+        "language": "en",
+        "intent": "package",
+        "outcome": "answered",
+        "entity": "adrenal",
+        "citations": [
+          {
+            "id": "adrenal:L40",
+            "url": "https://www.placidway.com/package/7902/Alternative-Adrenal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Adrenal package",
+            "line": 40,
+            "quote": "Follow-up Care:",
+            "section": "Included in the Out-Patient Program ($18,995 USD)",
+            "role": "evidence",
+            "snapshot": "1771c8992de9",
+            "updated_at": "2026-10-09T04:25:51.203023+00:00"
+          },
+          {
+            "id": "adrenal:L41",
+            "url": "https://www.placidway.com/package/7902/Alternative-Adrenal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Adrenal package",
+            "line": 41,
+            "quote": "One post-discharge consultation with an ITC doctor after 3 months.",
+            "section": "Included in the Out-Patient Program ($18,995 USD)",
+            "role": "evidence",
+            "snapshot": "1771c8992de9",
+            "updated_at": "2026-10-09T04:25:51.203023+00:00"
+          },
+          {
+            "id": "adrenal:L56",
+            "url": "https://www.placidway.com/package/7902/Alternative-Adrenal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Adrenal package",
+            "line": 56,
+            "quote": "Follow-up Care:",
+            "section": "Included in the In-Patient Program ($30,000 USD)",
+            "role": "evidence",
+            "snapshot": "1771c8992de9",
+            "updated_at": "2026-10-09T04:25:51.203023+00:00"
+          },
+          {
+            "id": "adrenal:L57",
+            "url": "https://www.placidway.com/package/7902/Alternative-Adrenal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Adrenal package",
+            "line": 57,
+            "quote": "One post-discharge medical consultation with an ITC doctor after 3 months.",
+            "section": "Included in the In-Patient Program ($30,000 USD)",
+            "role": "evidence",
+            "snapshot": "1771c8992de9",
+            "updated_at": "2026-10-09T04:25:51.203023+00:00"
+          }
+        ],
+        "disclaimer": "This is medical travel information, not medical advice. Consult a licensed doctor before making treatment decisions.",
+        "followups": [
+          "What is included in the adrenal outpatient package?",
+          "How much is the adrenal inpatient package?",
+          "What follow-up care is listed for adrenal?"
+        ],
+        "quote_url": "https://www.placidway.com/request-info",
+        "offer_quote": false,
+        "provider": "rules",
+        "updated_at": "2026-10-09T04:49:50.938126+00:00",
+        "trace": {
+          "route": "package",
+          "entity": "adrenal",
+          "validation": "Exact quotes and price tokens checked",
+          "retrieved": [
+            {
+              "id": "adrenal:L6",
+              "url": "https://www.placidway.com/package/7902/Alternative-Adrenal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+              "title": "Adrenal package",
+              "line": 6,
+              "quote": "Alternative Adrenal Cancer Treatment in Tijuana Mexico",
+              "section": "Alternative Adrenal Cancer Treatment Package in Tijuana, Mexico by ITC",
+              "role": "retrieved",
+              "snapshot": "1771c8992de9",
+              "updated_at": "2026-10-09T04:25:51.203023+00:00"
+            },
+            {
+              "id": "adrenal:L7",
+              "url": "https://www.placidway.com/package/7902/Alternative-Adrenal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+              "title": "Adrenal package",
+              "line": 7,
+              "quote": ". Recognizing that every patient's biological makeup and cancer stage are unique, ITC focuses on stimulating the body's natural immune system while targeting malignant adrenal cells with advanced, non-toxic protocols. By combining modern medical innovation with holistic care, this program provides a powerful alternative for those looking beyond traditional systemic treatments in a supportive, world-class environment.",
+              "section": "Alternative Adrenal Cancer Treatment Package in Tijuana, Mexico by ITC",
+              "role": "retrieved",
+              "snapshot": "1771c8992de9",
+              "updated_at": "2026-10-09T04:25:51.203023+00:00"
+            },
+            {
+              "id": "adrenal:L8",
+              "url": "https://www.placidway.com/package/7902/Alternative-Adrenal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+              "title": "Adrenal package",
+              "line": 8,
+              "quote": "The Immunity Therapy Center has earned a global reputation for its commitment to personalized medicine. Located in the vibrant medical hub of Baja California, ITC allows international patients to access cutting-edge therapies that may not yet be widely available in their home countries. Whether you are exploring options for a new diagnosis or seeking a supplemental path for advanced-stage recovery, the dedicated medical team at ITC works tirelessly to craft a treatment plan focused on quality of life and long-term remission through Alternative Adrenal Cancer Treatment in Tijuana Mexico.",
+              "section": "Alternative Adrenal Cancer Treatment Package in Tijuana, Mexico by ITC",
+              "role": "retrieved",
+              "snapshot": "1771c8992de9",
+              "updated_at": "2026-10-09T04:25:51.203023+00:00"
+            },
+            {
+              "id": "adrenal:L9",
+              "url": "https://www.placidway.com/package/7902/Alternative-Adrenal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+              "title": "Adrenal package",
+              "line": 9,
+              "quote": "Key Takeaways for Your Healing Journey at ITC",
+              "section": "Alternative Adrenal Cancer Treatment Package in Tijuana, Mexico by ITC",
+              "role": "retrieved",
+              "snapshot": "1771c8992de9",
+              "updated_at": "2026-10-09T04:25:51.203023+00:00"
+            },
+            {
+              "id": "adrenal:L39",
+              "url": "https://www.placidway.com/package/7902/Alternative-Adrenal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+              "title": "Adrenal package",
+              "line": 39,
+              "quote": "Standard medications included in the out-patient protocol (discussed in detail upon admission).",
+              "section": "Included in the Out-Patient Program ($18,995 USD)",
+              "role": "retrieved",
+              "snapshot": "1771c8992de9",
+              "updated_at": "2026-10-09T04:25:51.203023+00:00"
+            },
+            {
+              "id": "adrenal:L40",
+              "url": "https://www.placidway.com/package/7902/Alternative-Adrenal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+              "title": "Adrenal package",
+              "line": 40,
+              "quote": "Follow-up Care:",
+              "section": "Included in the Out-Patient Program ($18,995 USD)",
+              "role": "retrieved",
+              "snapshot": "1771c8992de9",
+              "updated_at": "2026-10-09T04:25:51.203023+00:00"
+            },
+            {
+              "id": "adrenal:L41",
+              "url": "https://www.placidway.com/package/7902/Alternative-Adrenal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+              "title": "Adrenal package",
+              "line": 41,
+              "quote": "One post-discharge consultation with an ITC doctor after 3 months.",
+              "section": "Included in the Out-Patient Program ($18,995 USD)",
+              "role": "retrieved",
+              "snapshot": "1771c8992de9",
+              "updated_at": "2026-10-09T04:25:51.203023+00:00"
+            },
+            {
+              "id": "adrenal:L42",
+              "url": "https://www.placidway.com/package/7902/Alternative-Adrenal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+              "title": "Adrenal package",
+              "line": 42,
+              "quote": "Included in the In-Patient Program ($30,000 USD)",
+              "section": "Included in the In-Patient Program ($30,000 USD)",
+              "role": "retrieved",
+              "snapshot": "1771c8992de9",
+              "updated_at": "2026-10-09T04:25:51.203023+00:00"
+            },
+            {
+              "id": "adrenal:L55",
+              "url": "https://www.placidway.com/package/7902/Alternative-Adrenal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+              "title": "Adrenal package",
+              "line": 55,
+              "quote": "Medications specific to the in-patient protocol included and managed by staff (discussed upon admission).",
+              "section": "Included in the In-Patient Program ($30,000 USD)",
+              "role": "retrieved",
+              "snapshot": "1771c8992de9",
+              "updated_at": "2026-10-09T04:25:51.203023+00:00"
+            },
+            {
+              "id": "adrenal:L56",
+              "url": "https://www.placidway.com/package/7902/Alternative-Adrenal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+              "title": "Adrenal package",
+              "line": 56,
+              "quote": "Follow-up Care:",
+              "section": "Included in the In-Patient Program ($30,000 USD)",
+              "role": "retrieved",
+              "snapshot": "1771c8992de9",
+              "updated_at": "2026-10-09T04:25:51.203023+00:00"
+            },
+            {
+              "id": "adrenal:L57",
+              "url": "https://www.placidway.com/package/7902/Alternative-Adrenal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+              "title": "Adrenal package",
+              "line": 57,
+              "quote": "One post-discharge medical consultation with an ITC doctor after 3 months.",
+              "section": "Included in the In-Patient Program ($30,000 USD)",
+              "role": "retrieved",
+              "snapshot": "1771c8992de9",
+              "updated_at": "2026-10-09T04:25:51.203023+00:00"
+            },
+            {
+              "id": "adrenal:L58",
+              "url": "https://www.placidway.com/package/7902/Alternative-Adrenal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+              "title": "Adrenal package",
+              "line": 58,
+              "quote": "Optional Specialized Procedures (Additional Cost)",
+              "section": "Optional Specialized Procedures (Additional Cost)",
+              "role": "retrieved",
+              "snapshot": "1771c8992de9",
+              "updated_at": "2026-10-09T04:25:51.203023+00:00"
+            },
+            {
+              "id": "adrenal:L116",
+              "url": "https://www.placidway.com/package/7902/Alternative-Adrenal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+              "title": "Adrenal package",
+              "line": 116,
+              "quote": "3. How do I know if I am a candidate for the Out-Patient or In-Patient program?",
+              "section": "FAQs: Alternative Adrenal Cancer Treatment in Tijuana Mexico",
+              "role": "retrieved",
+              "snapshot": "1771c8992de9",
+              "updated_at": "2026-10-09T04:25:51.203023+00:00"
+            },
+            {
+              "id": "adrenal:L117",
+              "url": "https://www.placidway.com/package/7902/Alternative-Adrenal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+              "title": "Adrenal package",
+              "line": 117,
+              "quote": "Generally, if you are mobile and have a companion to help with daily logistics, Out-Patient is ideal. In-Patient is reserved for those needing constant nursing care, 24/7 medical monitoring, or those dealing with extreme fatigue from adrenal dysfunction.",
+              "section": "FAQs: Alternative Adrenal Cancer Treatment in Tijuana Mexico",
+              "role": "retrieved",
+              "snapshot": "1771c8992de9",
+              "updated_at": "2026-10-09T04:25:51.203023+00:00"
+            },
+            {
+              "id": "adrenal:L118",
+              "url": "https://www.placidway.com/package/7902/Alternative-Adrenal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+              "title": "Adrenal package",
+              "line": 118,
+              "quote": "4. Are the doctors at ITC board-certified?",
+              "section": "FAQs: Alternative Adrenal Cancer Treatment in Tijuana Mexico",
+              "role": "retrieved",
+              "snapshot": "1771c8992de9",
+              "updated_at": "2026-10-09T04:25:51.203023+00:00"
+            },
+            {
+              "id": "adrenal:L119",
+              "url": "https://www.placidway.com/package/7902/Alternative-Adrenal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+              "title": "Adrenal package",
+              "line": 119,
+              "quote": "Yes, the medical team consists of licensed physicians and specialists with extensive training in both traditional and integrative oncology, ensuring high standards of safety and professional care for every patient.",
+              "section": "FAQs: Alternative Adrenal Cancer Treatment in Tijuana Mexico",
+              "role": "retrieved",
+              "snapshot": "1771c8992de9",
+              "updated_at": "2026-10-09T04:25:51.203023+00:00"
+            },
+            {
+              "id": "adrenal:L132",
+              "url": "https://www.placidway.com/package/7902/Alternative-Adrenal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+              "title": "Adrenal package",
+              "line": 132,
+              "quote": "Comprehensive support for international patients traveling to Tijuana, Mexico.",
+              "section": "FAQs: Alternative Adrenal Cancer Treatment in Tijuana Mexico",
+              "role": "retrieved",
+              "snapshot": "1771c8992de9",
+              "updated_at": "2026-10-09T04:25:51.203023+00:00"
+            },
+            {
+              "id": "adrenal:L133",
+              "url": "https://www.placidway.com/package/7902/Alternative-Adrenal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+              "title": "Adrenal package",
+              "line": 133,
+              "quote": "A patient-first approach focused on non-toxic, immune-stimulating adrenal cancer care.",
+              "section": "FAQs: Alternative Adrenal Cancer Treatment in Tijuana Mexico",
+              "role": "retrieved",
+              "snapshot": "1771c8992de9",
+              "updated_at": "2026-10-09T04:25:51.203023+00:00"
+            },
+            {
+              "id": "adrenal:L134",
+              "url": "https://www.placidway.com/package/7902/Alternative-Adrenal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+              "title": "Adrenal package",
+              "line": 134,
+              "quote": "Get a Free Quote",
+              "section": "FAQs: Alternative Adrenal Cancer Treatment in Tijuana Mexico",
+              "role": "retrieved",
+              "snapshot": "1771c8992de9",
+              "updated_at": "2026-10-09T04:25:51.203023+00:00"
+            },
+            {
+              "id": "adrenal:L1",
+              "url": "https://www.placidway.com/package/7902/Alternative-Adrenal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+              "title": "Adrenal package",
+              "line": 1,
+              "quote": "Alternative Adrenal Cancer Treatment Package in Tijuana, Mexico by ITC",
+              "section": "Alternative Adrenal Cancer Treatment Package in Tijuana, Mexico by ITC",
+              "role": "retrieved",
+              "snapshot": "1771c8992de9",
+              "updated_at": "2026-10-09T04:25:51.203023+00:00"
+            },
+            {
+              "id": "adrenal:L2",
+              "url": "https://www.placidway.com/package/7902/Alternative-Adrenal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+              "title": "Adrenal package",
+              "line": 2,
+              "quote": "Price starting from",
+              "section": "Alternative Adrenal Cancer Treatment Package in Tijuana, Mexico by ITC",
+              "role": "retrieved",
+              "snapshot": "1771c8992de9",
+              "updated_at": "2026-10-09T04:25:51.203023+00:00"
+            },
+            {
+              "id": "adrenal:L3",
+              "url": "https://www.placidway.com/package/7902/Alternative-Adrenal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+              "title": "Adrenal package",
+              "line": 3,
+              "quote": "$18,995",
+              "section": "Alternative Adrenal Cancer Treatment Package in Tijuana, Mexico by ITC",
+              "role": "retrieved",
+              "snapshot": "1771c8992de9",
+              "updated_at": "2026-10-09T04:25:51.203023+00:00"
+            },
+            {
+              "id": "adrenal:L4",
+              "url": "https://www.placidway.com/package/7902/Alternative-Adrenal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+              "title": "Adrenal package",
+              "line": 4,
+              "quote": "Hormonal Balance Support: Adrenal Cancer Treatment in Tijuana, Mexico",
+              "section": "Alternative Adrenal Cancer Treatment Package in Tijuana, Mexico by ITC",
+              "role": "retrieved",
+              "snapshot": "1771c8992de9",
+              "updated_at": "2026-10-09T04:25:51.203023+00:00"
+            },
+            {
+              "id": "adrenal:L5",
+              "url": "https://www.placidway.com/package/7902/Alternative-Adrenal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+              "title": "Adrenal package",
+              "line": 5,
+              "quote": "For patients seeking a comprehensive and integrative approach to oncology, the Immunity Therapy Center (ITC) offers a specialized",
+              "section": "Alternative Adrenal Cancer Treatment Package in Tijuana, Mexico by ITC",
+              "role": "retrieved",
+              "snapshot": "1771c8992de9",
+              "updated_at": "2026-10-09T04:25:51.203023+00:00"
+            }
+          ],
+          "source_count": 7
+        },
+        "warnings": []
+      }
+    },
+    {
+      "id": 29,
+      "type": "Excluded services",
+      "question": "What services are excluded from the anal cancer package?",
+      "passed": true,
+      "checks": {
+        "expected_intent": true,
+        "citations_valid": true,
+        "contains Excluded": true,
+        "contains Special": true,
+        "correct_source": true
+      },
+      "answer": {
+        "text": "Excluded Services and Contingency Costs\nSpecialty Medications:\nCertain high-cost or specific pharmaceuticals not included in the standard base price (Cost varies).",
+        "english_text": null,
+        "language": "en",
+        "intent": "package",
+        "outcome": "answered",
+        "entity": "anal",
+        "citations": [
+          {
+            "id": "anal:L70",
+            "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Anal cancer package",
+            "line": 70,
+            "quote": "Excluded Services and Contingency Costs",
+            "section": "Excluded Services and Contingency Costs",
+            "role": "evidence",
+            "snapshot": "20adbfc17d4c",
+            "updated_at": "2026-10-09T04:25:51.319963+00:00"
+          },
+          {
+            "id": "anal:L71",
+            "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Anal cancer package",
+            "line": 71,
+            "quote": "Specialty Medications:",
+            "section": "Excluded Services and Contingency Costs",
+            "role": "evidence",
+            "snapshot": "20adbfc17d4c",
+            "updated_at": "2026-10-09T04:25:51.319963+00:00"
+          },
+          {
+            "id": "anal:L72",
+            "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Anal cancer package",
+            "line": 72,
+            "quote": "Certain high-cost or specific pharmaceuticals not included in the standard base price (Cost varies).",
+            "section": "Excluded Services and Contingency Costs",
+            "role": "evidence",
+            "snapshot": "20adbfc17d4c",
+            "updated_at": "2026-10-09T04:25:51.319963+00:00"
+          }
+        ],
+        "disclaimer": "This is medical travel information, not medical advice. Consult a licensed doctor before making treatment decisions.",
+        "followups": [
+          "What is included in the anal outpatient package?",
+          "How much is the anal inpatient package?",
+          "What follow-up care is listed for anal?"
+        ],
+        "quote_url": "https://www.placidway.com/request-info",
+        "offer_quote": false,
+        "provider": "rules",
+        "updated_at": "2026-10-09T04:49:50.938126+00:00",
+        "trace": {
+          "route": "package",
+          "entity": "anal",
+          "validation": "Exact quotes and price tokens checked",
+          "retrieved": [
+            {
+              "id": "anal:L7",
+              "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+              "title": "Anal cancer package",
+              "line": 7,
+              "quote": ". Recognizing that every patient's biological makeup and cancer stage are unique, ITC focuses on stimulating the body's natural immune system while targeting malignant cells with advanced, non-toxic protocols. By combining modern medical innovation with holistic care, this program provides a powerful alternative for those looking beyond traditional systemic treatments in a supportive, world-class environment.",
+              "section": "Alternative Anal Cancer Treatment Package in Tijuana, Mexico by ITC",
+              "role": "retrieved",
+              "snapshot": "20adbfc17d4c",
+              "updated_at": "2026-10-09T04:25:51.319963+00:00"
+            },
+            {
+              "id": "anal:L8",
+              "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+              "title": "Anal cancer package",
+              "line": 8,
+              "quote": "The Immunity Therapy Center has earned a global reputation for its commitment to personalized medicine. Located in the vibrant medical hub of Baja California, ITC allows international patients to access cutting-edge therapies that may not yet be widely available in their home countries. Whether you are exploring options for a new diagnosis or seeking a supplemental path for advanced-stage recovery, the dedicated medical team at ITC works tirelessly to craft a treatment plan focused on quality of life and long-term remission through Alternative Anal Cancer Treatment in Tijuana Mexico.",
+              "section": "Alternative Anal Cancer Treatment Package in Tijuana, Mexico by ITC",
+              "role": "retrieved",
+              "snapshot": "20adbfc17d4c",
+              "updated_at": "2026-10-09T04:25:51.319963+00:00"
+            },
+            {
+              "id": "anal:L9",
+              "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+              "title": "Anal cancer package",
+              "line": 9,
+              "quote": "Key Takeaways for Your Healing Journey at ITC",
+              "section": "Alternative Anal Cancer Treatment Package in Tijuana, Mexico by ITC",
+              "role": "retrieved",
+              "snapshot": "20adbfc17d4c",
+              "updated_at": "2026-10-09T04:25:51.319963+00:00"
+            },
+            {
+              "id": "anal:L10",
+              "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+              "title": "Anal cancer package",
+              "line": 10,
+              "quote": "Personalized Immune Stimulation:",
+              "section": "Alternative Anal Cancer Treatment Package in Tijuana, Mexico by ITC",
+              "role": "retrieved",
+              "snapshot": "20adbfc17d4c",
+              "updated_at": "2026-10-09T04:25:51.319963+00:00"
+            },
+            {
+              "id": "anal:L22",
+              "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+              "title": "Anal cancer package",
+              "line": 22,
+              "quote": "Cost of Alternative Anal Cancer Treatment in Tijuana, Mexico",
+              "section": "Cost of Alternative Anal Cancer Treatment in Tijuana, Mexico",
+              "role": "retrieved",
+              "snapshot": "20adbfc17d4c",
+              "updated_at": "2026-10-09T04:25:51.319963+00:00"
+            },
+            {
+              "id": "anal:L23",
+              "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+              "title": "Anal cancer package",
+              "line": 23,
+              "quote": "Choosing an Alternative Anal Cancer Treatment in Tijuana Mexico at ITC involves choosing a high-value medical investment. The costs are structured to cover intensive therapeutic interventions over a three-week period, providing a level of one-on-one medical attention that is often difficult to find in traditional hospital settings. Below is the breakdown of the primary program tiers available to international patients.",
+              "section": "Cost of Alternative Anal Cancer Treatment in Tijuana, Mexico",
+              "role": "retrieved",
+              "snapshot": "20adbfc17d4c",
+              "updated_at": "2026-10-09T04:25:51.319963+00:00"
+            },
+            {
+              "id": "anal:L24",
+              "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+              "title": "Anal cancer package",
+              "line": 24,
+              "quote": "Program Type | Duration | Total Cost (USD)",
+              "section": "Cost of Alternative Anal Cancer Treatment in Tijuana, Mexico",
+              "role": "retrieved",
+              "snapshot": "20adbfc17d4c",
+              "updated_at": "2026-10-09T04:25:51.319963+00:00"
+            },
+            {
+              "id": "anal:L25",
+              "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+              "title": "Anal cancer package",
+              "line": 25,
+              "quote": "Out-Patient Program | 3 Weeks | $18,995",
+              "section": "Cost of Alternative Anal Cancer Treatment in Tijuana, Mexico",
+              "role": "retrieved",
+              "snapshot": "20adbfc17d4c",
+              "updated_at": "2026-10-09T04:25:51.319963+00:00"
+            },
+            {
+              "id": "anal:L58",
+              "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+              "title": "Anal cancer package",
+              "line": 58,
+              "quote": "Optional Specialized Procedures (Additional Cost)",
+              "section": "Optional Specialized Procedures (Additional Cost)",
+              "role": "retrieved",
+              "snapshot": "20adbfc17d4c",
+              "updated_at": "2026-10-09T04:25:51.319963+00:00"
+            },
+            {
+              "id": "anal:L59",
+              "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+              "title": "Anal cancer package",
+              "line": 59,
+              "quote": "For complex cases, ITC offers highly specific interventions that can be added to the baseline Alternative Anal Cancer Treatment in Tijuana Mexico. These are recommended only after a thorough evaluation by the medical board.",
+              "section": "Optional Specialized Procedures (Additional Cost)",
+              "role": "retrieved",
+              "snapshot": "20adbfc17d4c",
+              "updated_at": "2026-10-09T04:25:51.319963+00:00"
+            },
+            {
+              "id": "anal:L60",
+              "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+              "title": "Anal cancer package",
+              "line": 60,
+              "quote": "Lymphocytes Activated Killer Cells (LAK):",
+              "section": "Optional Specialized Procedures (Additional Cost)",
+              "role": "retrieved",
+              "snapshot": "20adbfc17d4c",
+              "updated_at": "2026-10-09T04:25:51.319963+00:00"
+            },
+            {
+              "id": "anal:L61",
+              "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+              "title": "Anal cancer package",
+              "line": 61,
+              "quote": "$2,600 USD",
+              "section": "Optional Specialized Procedures (Additional Cost)",
+              "role": "retrieved",
+              "snapshot": "20adbfc17d4c",
+              "updated_at": "2026-10-09T04:25:51.319963+00:00"
+            },
+            {
+              "id": "anal:L69",
+              "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+              "title": "Anal cancer package",
+              "line": 69,
+              "quote": "$6,200 - $7,200 USD",
+              "section": "Optional Specialized Procedures (Additional Cost)",
+              "role": "retrieved",
+              "snapshot": "20adbfc17d4c",
+              "updated_at": "2026-10-09T04:25:51.319963+00:00"
+            },
+            {
+              "id": "anal:L70",
+              "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+              "title": "Anal cancer package",
+              "line": 70,
+              "quote": "Excluded Services and Contingency Costs",
+              "section": "Excluded Services and Contingency Costs",
+              "role": "retrieved",
+              "snapshot": "20adbfc17d4c",
+              "updated_at": "2026-10-09T04:25:51.319963+00:00"
+            },
+            {
+              "id": "anal:L71",
+              "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+              "title": "Anal cancer package",
+              "line": 71,
+              "quote": "Specialty Medications:",
+              "section": "Excluded Services and Contingency Costs",
+              "role": "retrieved",
+              "snapshot": "20adbfc17d4c",
+              "updated_at": "2026-10-09T04:25:51.319963+00:00"
+            },
+            {
+              "id": "anal:L72",
+              "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+              "title": "Anal cancer package",
+              "line": 72,
+              "quote": "Certain high-cost or specific pharmaceuticals not included in the standard base price (Cost varies).",
+              "section": "Excluded Services and Contingency Costs",
+              "role": "retrieved",
+              "snapshot": "20adbfc17d4c",
+              "updated_at": "2026-10-09T04:25:51.319963+00:00"
+            },
+            {
+              "id": "anal:L109",
+              "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+              "title": "Anal cancer package",
+              "line": 109,
+              "quote": "Discover Advanced Medical Excellence in Tijuana, Mexico",
+              "section": "3-Week Typical Itinerary at ITC Tijuana",
+              "role": "retrieved",
+              "snapshot": "20adbfc17d4c",
+              "updated_at": "2026-10-09T04:25:51.319963+00:00"
+            },
+            {
+              "id": "anal:L110",
+              "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+              "title": "Anal cancer package",
+              "line": 110,
+              "quote": "Tijuana has evolved into one of the most sophisticated medical destinations in the world, particularly for integrative oncology. Choosing Alternative Anal Cancer Treatment in Tijuana Mexico means you are stepping into a community of healing where medical professionals are free to utilize the best of both natural and scientific worlds. At ITC, you are not just a chart number; you are a partner in your own recovery, surrounded by a staff that speaks your language and understands your goals. The proximity to San Diego makes travel seamless, allowing you to focus entirely on your health while enjoying the professional standards of a leading international clinic.",
+              "section": "3-Week Typical Itinerary at ITC Tijuana",
+              "role": "retrieved",
+              "snapshot": "20adbfc17d4c",
+              "updated_at": "2026-10-09T04:25:51.319963+00:00"
+            },
+            {
+              "id": "anal:L111",
+              "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+              "title": "Anal cancer package",
+              "line": 111,
+              "quote": "FAQs: Alternative Anal Cancer Treatment in Tijuana Mexico",
+              "section": "FAQs: Alternative Anal Cancer Treatment in Tijuana Mexico",
+              "role": "retrieved",
+              "snapshot": "20adbfc17d4c",
+              "updated_at": "2026-10-09T04:25:51.319963+00:00"
+            },
+            {
+              "id": "anal:L112",
+              "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+              "title": "Anal cancer package",
+              "line": 112,
+              "quote": "1. Why is Tijuana a preferred destination for anal cancer patients?",
+              "section": "FAQs: Alternative Anal Cancer Treatment in Tijuana Mexico",
+              "role": "retrieved",
+              "snapshot": "20adbfc17d4c",
+              "updated_at": "2026-10-09T04:25:51.319963+00:00"
+            },
+            {
+              "id": "anal:L113",
+              "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+              "title": "Anal cancer package",
+              "line": 113,
+              "quote": "Mexico's regulatory environment allows for the use of advanced integrative therapies that are often delayed in other countries. Clinics like ITC offer the latest innovations in immunotherapy and non-toxic protocols that specifically target anal malignancies without the severe side effects of standard radiation.",
+              "section": "FAQs: Alternative Anal Cancer Treatment in Tijuana Mexico",
+              "role": "retrieved",
+              "snapshot": "20adbfc17d4c",
+              "updated_at": "2026-10-09T04:25:51.319963+00:00"
+            },
+            {
+              "id": "anal:L114",
+              "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+              "title": "Anal cancer package",
+              "line": 114,
+              "quote": "2. Can these alternative therapies be used if I have a colostomy?",
+              "section": "FAQs: Alternative Anal Cancer Treatment in Tijuana Mexico",
+              "role": "retrieved",
+              "snapshot": "20adbfc17d4c",
+              "updated_at": "2026-10-09T04:25:51.319963+00:00"
+            },
+            {
+              "id": "anal:L115",
+              "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+              "title": "Anal cancer package",
+              "line": 115,
+              "quote": "Yes. Our medical team is experienced in managing patients with various surgical backgrounds. We adapt the Alternative Anal Cancer Treatment in Tijuana Mexico to your specific physical needs, ensuring therapies are safe and effective for your current condition.",
+              "section": "FAQs: Alternative Anal Cancer Treatment in Tijuana Mexico",
+              "role": "retrieved",
+              "snapshot": "20adbfc17d4c",
+              "updated_at": "2026-10-09T04:25:51.319963+00:00"
+            },
+            {
+              "id": "anal:L116",
+              "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+              "title": "Anal cancer package",
+              "line": 116,
+              "quote": "3. How do I decide between the Out-Patient and In-Patient program?",
+              "section": "FAQs: Alternative Anal Cancer Treatment in Tijuana Mexico",
+              "role": "retrieved",
+              "snapshot": "20adbfc17d4c",
+              "updated_at": "2026-10-09T04:25:51.319963+00:00"
+            }
+          ],
+          "source_count": 7
+        },
+        "warnings": []
+      }
+    },
+    {
+      "id": 30,
+      "type": "Additional costs",
+      "question": "How much is optional intratumoral immunotherapy in the adrenal package?",
+      "passed": true,
+      "checks": {
+        "expected_intent": true,
+        "citations_valid": true,
+        "contains 6,200": true,
+        "contains 7,200": true,
+        "correct_source": true
+      },
+      "answer": {
+        "text": "According to the Adrenal package page; these are optional additional costs in USD:\nIntratumoral Immunotherapy: $6,200 - $7,200 USD\nOptional procedures and excluded services cost extra; request a personalized quote.",
+        "english_text": null,
+        "language": "en",
+        "intent": "cost",
+        "outcome": "answered",
+        "entity": "adrenal",
+        "citations": [
+          {
+            "id": "adrenal:L68",
+            "url": "https://www.placidway.com/package/7902/Alternative-Adrenal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Adrenal package",
+            "line": 68,
+            "quote": "Intratumoral Immunotherapy:",
+            "section": "Optional Specialized Procedures (Additional Cost)",
+            "role": "evidence",
+            "snapshot": "1771c8992de9",
+            "updated_at": "2026-10-09T04:25:51.203023+00:00"
+          },
+          {
+            "id": "adrenal:L69",
+            "url": "https://www.placidway.com/package/7902/Alternative-Adrenal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Adrenal package",
+            "line": 69,
+            "quote": "$6,200 - $7,200 USD",
+            "section": "Optional Specialized Procedures (Additional Cost)",
+            "role": "evidence",
+            "snapshot": "1771c8992de9",
+            "updated_at": "2026-10-09T04:25:51.203023+00:00"
+          },
+          {
+            "id": "adrenal:L2",
+            "url": "https://www.placidway.com/package/7902/Alternative-Adrenal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Adrenal package",
+            "line": 2,
+            "quote": "Price starting from",
+            "section": "Alternative Adrenal Cancer Treatment Package in Tijuana, Mexico by ITC",
+            "role": "evidence",
+            "snapshot": "1771c8992de9",
+            "updated_at": "2026-10-09T04:25:51.203023+00:00"
+          },
+          {
+            "id": "adrenal:L24",
+            "url": "https://www.placidway.com/package/7902/Alternative-Adrenal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Adrenal package",
+            "line": 24,
+            "quote": "Program Type | Duration | Total Cost (USD)",
+            "section": "Cost of Adrenal Cancer Treatment in Tijuana, Mexico",
+            "role": "evidence",
+            "snapshot": "1771c8992de9",
+            "updated_at": "2026-10-09T04:25:51.203023+00:00"
+          }
+        ],
+        "disclaimer": "This is medical travel information, not medical advice. Consult a licensed doctor before making treatment decisions.",
+        "followups": [
+          "What is included in the adrenal outpatient package?",
+          "How much is the adrenal inpatient package?",
+          "What follow-up care is listed for adrenal?"
+        ],
+        "quote_url": "https://www.placidway.com/request-info",
+        "offer_quote": false,
+        "provider": "rules",
+        "updated_at": "2026-10-09T04:49:50.938126+00:00",
+        "trace": {
+          "route": "cost",
+          "entity": "adrenal",
+          "validation": "Exact quotes and price tokens checked",
+          "retrieved": [],
+          "source_count": 7
+        },
+        "warnings": []
+      }
+    },
+    {
+      "id": 32,
+      "type": "Different package follow-up",
+      "question": "Now what is included in the anal cancer package?",
+      "passed": true,
+      "checks": {
+        "expected_intent": true,
+        "citations_valid": true,
+        "correct_source": true
+      },
+      "answer": {
+        "text": "According to the Anal cancer package page in Tijuana, Mexico: Outpatient includes: Weekly Comprehensive Lab Work; Prescribed Imaging; Core Therapies.\nTwo health-focused meals provided daily during treatment hours. Standard medications included in the out-patient protocol (discussed in detail upon admission).\nInpatient includes: 24/7 Medical Supervision — Constant access to dedicated doctor and nursing care throughout the 3-week stay.\nPrivate accommodations and three nutritious meals daily (Monday through Sunday).\nAlso included for inpatient care: Extensive Diagnostics; Diagnostic Imaging; Clinical Therapies; Pharmacy Support.\nListed USD prices (package starting from): outpatient $18,995; inpatient $30,000; duration 3 Weeks.\nFollow-up: One post-discharge consultation with an ITC doctor after 3 months.\nOptional Specialized Procedures (Additional Cost); Excluded Services and Contingency Costs.",
+        "english_text": null,
+        "language": "en",
+        "intent": "package",
+        "outcome": "answered",
+        "entity": "anal",
+        "citations": [
+          {
+            "id": "anal:L30",
+            "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Anal cancer package",
+            "line": 30,
+            "quote": "Weekly Comprehensive Lab Work:",
+            "section": "Included in the Out-Patient Program ($18,995 USD)",
+            "role": "evidence",
+            "snapshot": "20adbfc17d4c",
+            "updated_at": "2026-10-09T04:25:51.319963+00:00"
+          },
+          {
+            "id": "anal:L31",
+            "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Anal cancer package",
+            "line": 31,
+            "quote": "CBC, blood chemistry, immunology assessment, kidney function, metabolic and coagulation panels (TP/TPT), specific tumor markers, and urinalysis.",
+            "section": "Included in the Out-Patient Program ($18,995 USD)",
+            "role": "evidence",
+            "snapshot": "20adbfc17d4c",
+            "updated_at": "2026-10-09T04:25:51.319963+00:00"
+          },
+          {
+            "id": "anal:L32",
+            "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Anal cancer package",
+            "line": 32,
+            "quote": "Prescribed Imaging:",
+            "section": "Included in the Out-Patient Program ($18,995 USD)",
+            "role": "evidence",
+            "snapshot": "20adbfc17d4c",
+            "updated_at": "2026-10-09T04:25:51.319963+00:00"
+          },
+          {
+            "id": "anal:L33",
+            "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Anal cancer package",
+            "line": 33,
+            "quote": "One X-ray, ultrasound, or CT scan of one area as directed by your ITC physician.",
+            "section": "Included in the Out-Patient Program ($18,995 USD)",
+            "role": "evidence",
+            "snapshot": "20adbfc17d4c",
+            "updated_at": "2026-10-09T04:25:51.319963+00:00"
+          },
+          {
+            "id": "anal:L34",
+            "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Anal cancer package",
+            "line": 34,
+            "quote": "Core Therapies:",
+            "section": "Included in the Out-Patient Program ($18,995 USD)",
+            "role": "evidence",
+            "snapshot": "20adbfc17d4c",
+            "updated_at": "2026-10-09T04:25:51.319963+00:00"
+          },
+          {
+            "id": "anal:L35",
+            "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Anal cancer package",
+            "line": 35,
+            "quote": "All alternative treatments listed as standard within the 3-week program.",
+            "section": "Included in the Out-Patient Program ($18,995 USD)",
+            "role": "evidence",
+            "snapshot": "20adbfc17d4c",
+            "updated_at": "2026-10-09T04:25:51.319963+00:00"
+          },
+          {
+            "id": "anal:L36",
+            "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Anal cancer package",
+            "line": 36,
+            "quote": "Nutritional Support:",
+            "section": "Included in the Out-Patient Program ($18,995 USD)",
+            "role": "evidence",
+            "snapshot": "20adbfc17d4c",
+            "updated_at": "2026-10-09T04:25:51.319963+00:00"
+          },
+          {
+            "id": "anal:L37",
+            "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Anal cancer package",
+            "line": 37,
+            "quote": "Two health-focused meals provided daily during treatment hours.",
+            "section": "Included in the Out-Patient Program ($18,995 USD)",
+            "role": "evidence",
+            "snapshot": "20adbfc17d4c",
+            "updated_at": "2026-10-09T04:25:51.319963+00:00"
+          },
+          {
+            "id": "anal:L38",
+            "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Anal cancer package",
+            "line": 38,
+            "quote": "Medications:",
+            "section": "Included in the Out-Patient Program ($18,995 USD)",
+            "role": "evidence",
+            "snapshot": "20adbfc17d4c",
+            "updated_at": "2026-10-09T04:25:51.319963+00:00"
+          },
+          {
+            "id": "anal:L39",
+            "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Anal cancer package",
+            "line": 39,
+            "quote": "Standard medications included in the out-patient protocol (discussed in detail upon admission).",
+            "section": "Included in the Out-Patient Program ($18,995 USD)",
+            "role": "evidence",
+            "snapshot": "20adbfc17d4c",
+            "updated_at": "2026-10-09T04:25:51.319963+00:00"
+          },
+          {
+            "id": "anal:L44",
+            "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Anal cancer package",
+            "line": 44,
+            "quote": "24/7 Medical Supervision:",
+            "section": "Included in the In-Patient Program ($30,000 USD)",
+            "role": "evidence",
+            "snapshot": "20adbfc17d4c",
+            "updated_at": "2026-10-09T04:25:51.319963+00:00"
+          },
+          {
+            "id": "anal:L45",
+            "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Anal cancer package",
+            "line": 45,
+            "quote": "Constant access to dedicated doctor and nursing care throughout the 3-week stay.",
+            "section": "Included in the In-Patient Program ($30,000 USD)",
+            "role": "evidence",
+            "snapshot": "20adbfc17d4c",
+            "updated_at": "2026-10-09T04:25:51.319963+00:00"
+          },
+          {
+            "id": "anal:L46",
+            "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Anal cancer package",
+            "line": 46,
+            "quote": "Full Room and Board:",
+            "section": "Included in the In-Patient Program ($30,000 USD)",
+            "role": "evidence",
+            "snapshot": "20adbfc17d4c",
+            "updated_at": "2026-10-09T04:25:51.319963+00:00"
+          },
+          {
+            "id": "anal:L47",
+            "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Anal cancer package",
+            "line": 47,
+            "quote": "Private accommodations and three nutritious meals daily (Monday through Sunday).",
+            "section": "Included in the In-Patient Program ($30,000 USD)",
+            "role": "evidence",
+            "snapshot": "20adbfc17d4c",
+            "updated_at": "2026-10-09T04:25:51.319963+00:00"
+          },
+          {
+            "id": "anal:L48",
+            "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Anal cancer package",
+            "line": 48,
+            "quote": "Extensive Diagnostics:",
+            "section": "Included in the In-Patient Program ($30,000 USD)",
+            "role": "evidence",
+            "snapshot": "20adbfc17d4c",
+            "updated_at": "2026-10-09T04:25:51.319963+00:00"
+          },
+          {
+            "id": "anal:L49",
+            "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Anal cancer package",
+            "line": 49,
+            "quote": "Comprehensive weekly lab panels including tumor markers and immune function monitoring.",
+            "section": "Included in the In-Patient Program ($30,000 USD)",
+            "role": "evidence",
+            "snapshot": "20adbfc17d4c",
+            "updated_at": "2026-10-09T04:25:51.319963+00:00"
+          },
+          {
+            "id": "anal:L50",
+            "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Anal cancer package",
+            "line": 50,
+            "quote": "Diagnostic Imaging:",
+            "section": "Included in the In-Patient Program ($30,000 USD)",
+            "role": "evidence",
+            "snapshot": "20adbfc17d4c",
+            "updated_at": "2026-10-09T04:25:51.319963+00:00"
+          },
+          {
+            "id": "anal:L51",
+            "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Anal cancer package",
+            "line": 51,
+            "quote": "One prescribed X-ray, ultrasound, or CT scan included per doctor's orders.",
+            "section": "Included in the In-Patient Program ($30,000 USD)",
+            "role": "evidence",
+            "snapshot": "20adbfc17d4c",
+            "updated_at": "2026-10-09T04:25:51.319963+00:00"
+          },
+          {
+            "id": "anal:L52",
+            "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Anal cancer package",
+            "line": 52,
+            "quote": "Clinical Therapies:",
+            "section": "Included in the In-Patient Program ($30,000 USD)",
+            "role": "evidence",
+            "snapshot": "20adbfc17d4c",
+            "updated_at": "2026-10-09T04:25:51.319963+00:00"
+          },
+          {
+            "id": "anal:L53",
+            "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Anal cancer package",
+            "line": 53,
+            "quote": "Full access to all program-specific alternative and integrative interventions.",
+            "section": "Included in the In-Patient Program ($30,000 USD)",
+            "role": "evidence",
+            "snapshot": "20adbfc17d4c",
+            "updated_at": "2026-10-09T04:25:51.319963+00:00"
+          },
+          {
+            "id": "anal:L54",
+            "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Anal cancer package",
+            "line": 54,
+            "quote": "Pharmacy Support:",
+            "section": "Included in the In-Patient Program ($30,000 USD)",
+            "role": "evidence",
+            "snapshot": "20adbfc17d4c",
+            "updated_at": "2026-10-09T04:25:51.319963+00:00"
+          },
+          {
+            "id": "anal:L55",
+            "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Anal cancer package",
+            "line": 55,
+            "quote": "Medications specific to the in-patient protocol included and managed by staff.",
+            "section": "Included in the In-Patient Program ($30,000 USD)",
+            "role": "evidence",
+            "snapshot": "20adbfc17d4c",
+            "updated_at": "2026-10-09T04:25:51.319963+00:00"
+          },
+          {
+            "id": "anal:L25",
+            "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Anal cancer package",
+            "line": 25,
+            "quote": "Out-Patient Program | 3 Weeks | $18,995",
+            "section": "Cost of Alternative Anal Cancer Treatment in Tijuana, Mexico",
+            "role": "evidence",
+            "snapshot": "20adbfc17d4c",
+            "updated_at": "2026-10-09T04:25:51.319963+00:00"
+          },
+          {
+            "id": "anal:L26",
+            "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Anal cancer package",
+            "line": 26,
+            "quote": "In-Patient Program | 3 Weeks | $30,000",
+            "section": "Cost of Alternative Anal Cancer Treatment in Tijuana, Mexico",
+            "role": "evidence",
+            "snapshot": "20adbfc17d4c",
+            "updated_at": "2026-10-09T04:25:51.319963+00:00"
+          },
+          {
+            "id": "anal:L2",
+            "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Anal cancer package",
+            "line": 2,
+            "quote": "Price starting from",
+            "section": "Alternative Anal Cancer Treatment Package in Tijuana, Mexico by ITC",
+            "role": "evidence",
+            "snapshot": "20adbfc17d4c",
+            "updated_at": "2026-10-09T04:25:51.319963+00:00"
+          },
+          {
+            "id": "anal:L24",
+            "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Anal cancer package",
+            "line": 24,
+            "quote": "Program Type | Duration | Total Cost (USD)",
+            "section": "Cost of Alternative Anal Cancer Treatment in Tijuana, Mexico",
+            "role": "evidence",
+            "snapshot": "20adbfc17d4c",
+            "updated_at": "2026-10-09T04:25:51.319963+00:00"
+          },
+          {
+            "id": "anal:L41",
+            "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Anal cancer package",
+            "line": 41,
+            "quote": "One post-discharge consultation with an ITC doctor after 3 months.",
+            "section": "Included in the Out-Patient Program ($18,995 USD)",
+            "role": "evidence",
+            "snapshot": "20adbfc17d4c",
+            "updated_at": "2026-10-09T04:25:51.319963+00:00"
+          },
+          {
+            "id": "anal:L58",
+            "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Anal cancer package",
+            "line": 58,
+            "quote": "Optional Specialized Procedures (Additional Cost)",
+            "section": "Optional Specialized Procedures (Additional Cost)",
+            "role": "evidence",
+            "snapshot": "20adbfc17d4c",
+            "updated_at": "2026-10-09T04:25:51.319963+00:00"
+          },
+          {
+            "id": "anal:L70",
+            "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Anal cancer package",
+            "line": 70,
+            "quote": "Excluded Services and Contingency Costs",
+            "section": "Excluded Services and Contingency Costs",
+            "role": "evidence",
+            "snapshot": "20adbfc17d4c",
+            "updated_at": "2026-10-09T04:25:51.319963+00:00"
+          }
+        ],
+        "disclaimer": "This is medical travel information, not medical advice. Consult a licensed doctor before making treatment decisions.",
+        "followups": [
+          "What is included in the anal outpatient package?",
+          "How much is the anal inpatient package?",
+          "What follow-up care is listed for anal?"
+        ],
+        "quote_url": "https://www.placidway.com/request-info",
+        "offer_quote": false,
+        "provider": "rules",
+        "updated_at": "2026-10-09T04:49:50.938126+00:00",
+        "trace": {
+          "route": "package",
+          "entity": "anal",
+          "validation": "Exact quotes and price tokens checked",
+          "retrieved": [],
+          "source_count": 7
+        },
+        "warnings": []
+      }
+    },
+    {
+      "id": 36,
+      "type": "Same package contextual price",
+      "question": "Does the anal cancer package really cost $35 like alternative medicine abroad?",
+      "passed": true,
+      "checks": {
+        "expected_intent": true,
+        "citations_valid": true,
+        "contains 18,995": true,
+        "excludes $35": true,
+        "correct_source": true
+      },
+      "answer": {
+        "text": "According to the Anal cancer package page in Tijuana, Mexico: Listed in USD; package price starting from.\nOut-Patient Program | 3 Weeks | $18,995\nIn-Patient Program | 3 Weeks | $30,000\nOutpatient includes: Two health-focused meals provided daily during treatment hours.\nInpatient includes: Private accommodations and three nutritious meals daily (Monday through Sunday).\nFollow-up: One post-discharge consultation with an ITC doctor after 3 months.\nOptional procedures and excluded services cost extra; request a personalized quote.",
+        "english_text": null,
+        "language": "en",
+        "intent": "cost",
+        "outcome": "answered",
+        "entity": "anal",
+        "citations": [
+          {
+            "id": "anal:L25",
+            "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Anal cancer package",
+            "line": 25,
+            "quote": "Out-Patient Program | 3 Weeks | $18,995",
+            "section": "Cost of Alternative Anal Cancer Treatment in Tijuana, Mexico",
+            "role": "evidence",
+            "snapshot": "20adbfc17d4c",
+            "updated_at": "2026-10-09T04:25:51.319963+00:00"
+          },
+          {
+            "id": "anal:L26",
+            "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Anal cancer package",
+            "line": 26,
+            "quote": "In-Patient Program | 3 Weeks | $30,000",
+            "section": "Cost of Alternative Anal Cancer Treatment in Tijuana, Mexico",
+            "role": "evidence",
+            "snapshot": "20adbfc17d4c",
+            "updated_at": "2026-10-09T04:25:51.319963+00:00"
+          },
+          {
+            "id": "anal:L37",
+            "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Anal cancer package",
+            "line": 37,
+            "quote": "Two health-focused meals provided daily during treatment hours.",
+            "section": "Included in the Out-Patient Program ($18,995 USD)",
+            "role": "evidence",
+            "snapshot": "20adbfc17d4c",
+            "updated_at": "2026-10-09T04:25:51.319963+00:00"
+          },
+          {
+            "id": "anal:L47",
+            "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Anal cancer package",
+            "line": 47,
+            "quote": "Private accommodations and three nutritious meals daily (Monday through Sunday).",
+            "section": "Included in the In-Patient Program ($30,000 USD)",
+            "role": "evidence",
+            "snapshot": "20adbfc17d4c",
+            "updated_at": "2026-10-09T04:25:51.319963+00:00"
+          },
+          {
+            "id": "anal:L41",
+            "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Anal cancer package",
+            "line": 41,
+            "quote": "One post-discharge consultation with an ITC doctor after 3 months.",
+            "section": "Included in the Out-Patient Program ($18,995 USD)",
+            "role": "evidence",
+            "snapshot": "20adbfc17d4c",
+            "updated_at": "2026-10-09T04:25:51.319963+00:00"
+          },
+          {
+            "id": "anal:L2",
+            "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Anal cancer package",
+            "line": 2,
+            "quote": "Price starting from",
+            "section": "Alternative Anal Cancer Treatment Package in Tijuana, Mexico by ITC",
+            "role": "evidence",
+            "snapshot": "20adbfc17d4c",
+            "updated_at": "2026-10-09T04:25:51.319963+00:00"
+          },
+          {
+            "id": "anal:L24",
+            "url": "https://www.placidway.com/package/7901/Alternative-Anal-Cancer-Treatment-Package-in-Tijuana-Mexico-by-ITC",
+            "title": "Anal cancer package",
+            "line": 24,
+            "quote": "Program Type | Duration | Total Cost (USD)",
+            "section": "Cost of Alternative Anal Cancer Treatment in Tijuana, Mexico",
+            "role": "evidence",
+            "snapshot": "20adbfc17d4c",
+            "updated_at": "2026-10-09T04:25:51.319963+00:00"
+          }
+        ],
+        "disclaimer": "This is medical travel information, not medical advice. Consult a licensed doctor before making treatment decisions.",
+        "followups": [
+          "What is included in the anal outpatient package?",
+          "How much is the anal inpatient package?",
+          "What follow-up care is listed for anal?"
+        ],
+        "quote_url": "https://www.placidway.com/request-info",
+        "offer_quote": false,
+        "provider": "rules",
+        "updated_at": "2026-10-09T04:49:50.938126+00:00",
+        "trace": {
+          "route": "cost",
+          "entity": "anal",
+          "validation": "Exact quotes and price tokens checked",
+          "retrieved": [],
+          "source_count": 7
+        },
+        "warnings": []
+      }
+    }
+  ]
+}

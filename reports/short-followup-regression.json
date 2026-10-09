@@ -1,0 +1,23 @@
+[
+  {
+    "question": "What do you know about Anal cancer package?",
+    "text": "According to the Anal cancer package page in Tijuana, Mexico:\nOutpatient includes: Weekly Comprehensive Lab Work; Prescribed Imaging; Core Therapies.\nTwo health-focused meals provided daily during treatment hours. Standard medications included in the out-patient protocol (discussed in detail upon admission).\nInpatient includes: 24/7 Medical Supervision — Constant access to dedicated doctor and nursing care throughout the 3-week stay. Private accommodations and three nutritious meals daily (Monday through Sunday).\nAlso included for inpatient care: Extensive Diagnostics; Diagnostic Imaging; Clinical Therapies; Pharmacy Support.\nListed USD prices (package starting from): outpatient $18,995; inpatient $30,000; duration 3 Weeks.\nFollow-up: One post-discharge consultation with an ITC doctor after 3 months.\nOther details: Optional Specialized Procedures (Additional Cost); Excluded Services and Contingency Costs.",
+    "intent": "package",
+    "entity": "anal",
+    "disclaimer": "This is medical travel information, not medical advice. Consult a licensed doctor before making treatment decisions."
+  },
+  {
+    "question": "Any idea about price?",
+    "text": "According to the Anal cancer package page in Tijuana, Mexico: Listed in USD; package price starting from.\nOut-Patient Program | 3 Weeks | $18,995\nIn-Patient Program | 3 Weeks | $30,000\nOutpatient includes: Two health-focused meals provided daily during treatment hours.\nInpatient includes: Private accommodations and three nutritious meals daily (Monday through Sunday).\nFollow-up: One post-discharge consultation with an ITC doctor after 3 months.\nOptional procedures and excluded services cost extra; request a personalized quote.",
+    "intent": "cost",
+    "entity": "anal",
+    "disclaimer": null
+  },
+  {
+    "question": "Any idea about price?",
+    "text": "Which treatment do you mean: adenocarcinoma, adrenal cancer, or anal cancer?",
+    "intent": "clarify",
+    "entity": "none",
+    "disclaimer": null
+  }
+]

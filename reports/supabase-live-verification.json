@@ -1,0 +1,27 @@
+{
+  "project": "nakfsvmzgcroxbfuokpd",
+  "plan": "Free",
+  "checks": {
+    "pw_events_public_read_denied": true,
+    "pw_leads_public_read_denied": true,
+    "pw_knowledge_public_read_denied": true,
+    "public_write_denied": true,
+    "encrypted_lead_roundtrip": true,
+    "synthetic_lead_removed": true,
+    "running_app_connected": true,
+    "protected_admin_sync": true
+  },
+  "health": {
+    "status": "ok",
+    "sources": 7,
+    "last_refresh": "2026-10-09T04:49:50.938126+00:00",
+    "groq_configured": true,
+    "supabase_configured": true,
+    "supabase": {
+      "status": "ok",
+      "last_attempt": "2026-10-09T11:30:44.853804+00:00",
+      "last_success": "2026-10-09T11:30:45.812972+00:00"
+    },
+    "warnings": 0
+  }
+}

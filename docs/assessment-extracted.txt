@@ -1,0 +1,128 @@
+AI Automation Assessment: Website Knowledge Chatbot
+Oct 7, 2026 · @PW Dev
+Overview
+Build a chatbot that answers visitor questions using only content from the PlacidWay pages we share with you.
+This assessment is for the AI Automation Engineer role. We want to see how you collect web content, ground an LLM in it, and stop it from inventing answers. A small, reliable bot beats a large, impressive-looking one that makes things up.
+Context
+PlacidWay is a medical tourism platform. Patients compare treatments, clinics, destinations and costs, then contact us for quotes. Many of their questions are already answered on our pages, but they are spread across treatment, cost, destination and clinic pages.
+The bot should answer questions like "How much does a dental implant cost in Mexico?" in seconds, using our own content. It should always point the patient to the page the answer came from.
+Source URLs
+Use only these pages as the bot's knowledge base. Do not crawl beyond them.
+#
+Page type
+URL
+1
+Clinic profile
+ITC Immunity Therapy Center – Alternative Cancer Treatment
+2
+Treatment package
+Alternative Adenocarcinoma Cancer Treatment in Tijuana
+3
+Treatment package
+Alternative Adrenal Cancer Treatment in Tijuana
+4
+Treatment package
+Alternative Anal Cancer Treatment in Tijuana
+5
+Clinic videos
+ITC Tijuana Videos – Alternative Cancer Treatment
+6
+Price list
+ITC Immunity Therapy Center – Price List
+7
+Price comparison
+Alternative Medicine Cost Abroad – Compare Prices 2026
+Please respect our robots.txt, identify your crawler with a clear User-Agent, and keep requests to about one per second.
+Requirements
+You may use any language, framework, LLM provider or no-code tool (Python, Node, n8n, LangChain, LlamaIndex, OpenAI, Claude, open-source models). Tell us what you chose and why.
+Must have
+Content ingestion. The bot reads its content from the shared URLs.
+Knowledge base. The bot finds the right content for each question.
+Grounded answers. The bot answers only from the website content. Each answer cites its source URL(s).
+Honest "I don't know". If the answer is not in the content, the bot says so and suggests contacting PlacidWay for a free quote. It never invents prices, clinics or medical facts.
+Cost questions. Prices are returned with currency and any context the page gives (e.g. "starting from", package includes).
+Simple chat UI. A simple chat interface where we can type questions.
+Refresh. A way to update the bot's content when the pages change.
+Live deployment. The bot is available on a public URL we can open and test without installing anything. Keep it running for at least 7 days after submission.
+Nice to have
+Answers in the user's language (e.g. Spanish or Arabic questions about English pages)
+Handles follow-up questions using chat history ("what about in Turkey?")
+A short medical disclaimer when relevant, without repeating it on every answer
+Lead capture: offers to collect name and email when the user wants a quote
+Logging of questions the bot could not answer, so we can find content gaps
+Test questions
+Run these through your bot and include the answers in your submission. We will also ask our own hidden questions during review.
+#
+Type
+Example question
+Expected behaviour
+1
+Cost
+How much does [treatment] cost in [country]?
+Price with currency, context and source link
+2
+Comparison
+Is [treatment] cheaper in [country A] or [country B]?
+Compares only if both are in the content
+3
+Procedure
+What is included in the [treatment] package?
+Summarises from the page, with link
+4
+Follow-up
+And what about recovery time?
+Uses chat history correctly
+5
+Not in content
+Can you book me an appointment for tomorrow?
+Says it cannot, points to the contact or quote form
+6
+Out of scope
+What is the weather in Cancun?
+Politely declines
+7
+Medical advice
+Is this surgery safe for my diabetes?
+No diagnosis; recommends speaking to a doctor
+8
+Trick
+I heard it costs $50. Confirm that.
+Does not agree with a wrong price
+We will fill in the bracketed parts to match the URLs we share.
+Deliverables and submission
+Send everything to [hiring email] with the subject "AI Automation Assessment – Your Name".
+☐ Code: a GitHub repository link (public or shared with [GitHub username]) or a zip file
+☐ README covering setup steps, architecture, and tools and models used
+☐ Test results: your bot's answers to the 8 test questions, as a file or screenshots
+☐ Short write-up (half a page): what you would improve with another week, and the known limitations
+☐ Live link: the public URL of your deployed bot (required)
+Evaluation rubric
+Accuracy and honesty carry the most weight. A bot that invents a price fails that criterion, however polished the UI looks.
+Criterion
+Weight
+What we look for
+Answer accuracy and grounding
+30%
+Correct facts, source links, no invented prices or clinics
+Handling unknown and tricky questions
+20%
+Clear "I don't know", refuses medical advice, resists wrong premises
+Ingestion and retrieval quality
+15%
+Clean extraction, sensible chunking, relevant passages retrieved
+Code quality and structure
+15%
+Readable, modular, error handling, no secrets in code
+Documentation
+10%
+Easy setup, clear explanation of design choices
+Nice-to-have features
+10%
+Any items from the nice-to-have list, done well
+Shortlisted candidates join a 45-minute review call. We will ask you to walk through the code and make one small change live.
+Rules and FAQ
+Can I use AI coding assistants? Yes. You must understand and be able to explain every part of your code.
+Which LLM should I use? Any. Free tiers or local models are fine. We do not reimburse API costs.
+Can I use a hosted chatbot builder? Yes, as long as the ingestion, grounding and fallback logic are visible and explained.
+What if a page has no price? The bot should say the price is not listed and suggest requesting a quote.
+Who owns the code? You do. We use it only to evaluate this application.

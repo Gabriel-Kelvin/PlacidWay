@@ -1,0 +1,23 @@
+[
+  {
+    "question": "What do you know about alternative adrenal cancer treatment package in Tijuana",
+    "answer": "According to the Adrenal package page in Tijuana, Mexico: Programs run for 3 weeks.\nPatients can choose between a focused Out-Patient program or a comprehensive 24/7 In-Patient experience.\nOutpatient — Weekly Comprehensive Lab Work: CBC, blood chemistry, immunology assessment, kidney function, metabolic and coagulation panels (TP/TPT), specific tumor markers, and urinalysis.\nOutpatient — Prescribed Imaging: One X-ray, ultrasound, or CT scan of one area as directed by your ITC physician.\nOutpatient — Core Therapies: All alternative treatments listed on the program as included within the 3-week stay.\nOutpatient — Nutritional Support: Two health-focused meals provided daily during treatment hours.\nOutpatient — Medications: Standard medications included in the out-patient protocol (discussed in detail upon admission).\nOutpatient — Follow-up Care: One post-discharge consultation with an ITC doctor after 3 months.",
+    "intent": "package",
+    "entity": "adrenal",
+    "disclaimer": true
+  },
+  {
+    "question": "what else do you know more than just price",
+    "answer": "According to the Adrenal package page in Tijuana, Mexico: Inpatient inclusions:\n24/7 Medical Supervision: Constant access to dedicated doctor and nursing care 24 hours a day throughout the stay.\nFull Room and Board: Private accommodations and three nutritious meals daily (Monday through Sunday).\nExtensive Diagnostics: Comprehensive weekly lab panels including tumor markers and immune function monitoring.\nDiagnostic Imaging: One prescribed X-ray, ultrasound, or CT scan included per doctor's orders.\nClinical Therapies: Full access to all program-specific alternative and integrative interventions.\nPharmacy Support: Medications specific to the in-patient protocol included and managed by staff (discussed upon admission).\nFollow-up Care: One post-discharge medical consultation with an ITC doctor after 3 months.",
+    "intent": "package",
+    "entity": "adrenal",
+    "disclaimer": false
+  },
+  {
+    "question": "How much does it cost?",
+    "answer": "Which treatment do you mean: adenocarcinoma, adrenal cancer, or anal cancer?",
+    "intent": "clarify",
+    "entity": "none",
+    "disclaimer": false
+  }
+]
